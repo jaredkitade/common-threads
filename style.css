@@ -48,12 +48,12 @@ a {
 .podcast-thumbnail {
 	float:left;
 	margin: 50px 50px 0px 0px;
-	height:325px;
+	height:340px;
 	width:275px;
 	position: relative;
 }
 .podcast-head {
-	height:50px;
+	height:65px;
 	width: 275px;
 	position: absolute;
 	padding: 10px;
@@ -75,9 +75,12 @@ a {
 	display: table-cell;
 	vertical-align: middle;
 }
+.episode {
+	font-size: 8pt;
+}
 .name {
 	font-family:'Brandon Text W01 Bold';
-	font-size: 16pt;
+	font-size: 14pt;
 	margin: 0;
 	font-weight: normal;
 	line-height: 1.2em;
@@ -85,7 +88,7 @@ a {
 }
 .title {
 	font-family: 'Brandon Text W01 Regular';
-	font-size: 16pt;
+	font-size: 14pt;
 	font-weight: normal;
 	margin: 0;
 	letter-spacing: .5px;
