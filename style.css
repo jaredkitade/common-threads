@@ -10,7 +10,7 @@ body {
 	line-height: 1.4em;
 }
 p {
-	margin-top: 0;
+	margin:0;
 }
 a {
 	text-decoration: none;
@@ -21,7 +21,7 @@ a {
 }
 /*------------------------------------------------------ HEAD */
 .head {
-	width: 920px;
+	width: 925px;
 	margin: 0 auto;
 	position: fixed;
 	top:0;
@@ -31,28 +31,65 @@ a {
 	background: white;
 	height:79px;
 }
-/*------------------------------------------------------ HOME CONTENT*/
+/*------------------------------------------------------ HOME CONTENT */
 .content {
-	width: 920px;
+	width: 925px;
 	margin: 0 auto;
 	height: auto;
 	margin-top:53px;
 	margin-bottom: 55px;
 }
 .home-podcasts {	
-	max-width: 920px;
+	max-width: 925px;
 	margin:0 auto;
 	height: auto;
 }
+/*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast-thumbnail {
-	/*display: inline-block;*/
 	float:left;
-	margin: 25px 10px 0px 0px;
-	height:300px;
-	width:300px;
+	margin: 50px 50px 0px 0px;
+	height:325px;
+	width:275px;
 	position: relative;
-	background-color: blue;
-	/*cursor: pointer;*/
+}
+.podcast-head {
+	height:50px;
+	width: 275px;
+	position: absolute;
+	padding: 10px;
+	top: 0;
+	left: 0;
+	border:1px solid black;
+	display: table;
+}
+.podcast-image {
+	height: 275px;
+	width: 275px;
+	top: 50px;
+	left: 0;
+	position: absolute;
+	border:1px solid black;
+	border-top: none;
+}
+.header {
+	display: table-cell;
+	vertical-align: middle;
+}
+.name {
+	font-family:'Brandon Grot W01 Black';
+	font-size: 16pt;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: black;
+}
+.title {
+	font-family: 'Brandon Text W01 Regular';
+	font-size: 16pt;
+	font-weight: normal;
+	margin: 0;
+	letter-spacing: .5px;
+	color: black;
 }
 .last {
 	margin-right:0;
