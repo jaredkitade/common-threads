@@ -19,6 +19,23 @@ a {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
+h1 {
+	margin: 0;
+	font-weight: normal;
+	font-family:'Brandon Text W01 Bold';
+}
+h2 {
+	margin: 0;
+	font-weight: normal;
+	font-family:'Brandon Text W01 Regular';
+}
+h3 {
+	margin: 0;
+	font-weight: normal;
+}
+.clear {
+	clear: both;
+}
 /*------------------------------------------------------ HEAD */
 .head {
 	width: 925px;
@@ -28,7 +45,6 @@ a {
 	left:50%;
 	transform:translate(-50%,0);
 	z-index: 2;
-	background: white;
 	height:79px;
 }
 /*------------------------------------------------------ HOME CONTENT */
@@ -96,4 +112,41 @@ a {
 }
 .last {
 	margin-right:0;
+}
+/*------------------------------------------------------ PODCAST PAGES */
+.podcast-episode {
+	width: 700px;
+	height: auto;
+	float: left;
+	/*border-right: 1px solid black;*/
+}
+.player {
+	width: 300px;
+	height: 300px;
+	margin: 50px 50px 0 0;
+	border:1px solid black;
+	float: left;
+}
+.description {
+	width: 300px;
+	margin: 50px 50px 0 0;
+	float: left;
+}
+.topics {
+	width: 225px;
+	margin-top: 50px;
+	height: auto;
+	float: left;
+}
+.topics ul, .topics li {
+	float: none;
+	text-decoration: none;
+	list-style: none;
+}
+.related {
+	height: 125px;
+	width: 125px;
+	border: 1px solid black;
+	float: left;
+	margin: 50px 50px 0px 0px;
 }
