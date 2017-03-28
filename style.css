@@ -4,7 +4,7 @@
 body {
 	margin:0;
 	padding:0;
-	font-family:'Brandon Text W01 Regular';
+	font-family:'Brandon Text W01 Light';
 	font-size: 11pt;
 	color: black;
 	line-height: 1.5em;
@@ -27,7 +27,7 @@ h1 {
 h2 {
 	margin: 0;
 	font-weight: normal;
-	font-family:'Brandon Text W01 Regular';
+	font-family:'Brandon Text W01 Light';
 }
 h3 {
 	margin: 0;
@@ -108,7 +108,7 @@ h4 {
 	color: black;
 }
 .title {
-	font-family: 'Brandon Text W01 Regular';
+	font-family: 'Brandon Text W01 Light';
 	font-size: 14pt;
 	font-weight: normal;
 	margin: 0;
