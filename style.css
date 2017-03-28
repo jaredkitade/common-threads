@@ -7,7 +7,7 @@ body {
 	font-family:'Brandon Text W01 Regular';
 	font-size: 11pt;
 	color: black;
-	line-height: 1.4em;
+	line-height: 1.5em;
 }
 p {
 	margin:0;
@@ -32,6 +32,9 @@ h2 {
 h3 {
 	margin: 0;
 	font-weight: normal;
+}
+h4 {
+	margin: 0;
 }
 .clear {
 	clear: both;
@@ -142,6 +145,7 @@ h3 {
 	float: none;
 	text-decoration: none;
 	list-style: none;
+	font-size: 9pt;
 }
 .related {
 	height: 125px;
