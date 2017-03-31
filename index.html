@@ -10,6 +10,24 @@
 </head>
 <body>
 	<div class='head'>
+		<ul class='nav'>
+			<li class="all-link">View All</li>
+			<li class="stereotypes-link">Stereotypes</li>
+			<li class='impulse-link'>Impulse</li>
+			<li class='real-friends-link'>Real Friends</li>
+			<li class='self-confidence-link'>Self Confidence</li>
+			<li class='regret-link'>Regret</li>
+			<li class='bubbles-link'>Societal Bubbles</li>
+			<li class='overthinking-link'>Overthinking</li>
+			<li class='unfair-wrong-link'>Unfair vs. Wrong</li>
+			<li class='appearance-link'>Appearance</li>
+			<li class='anxiety-link'>Anxiety</li>
+			<li class='wingstop-link'>Wingstop</li>
+			<li class='parenting-link'>Parenting</li>
+			<li class='time-link'>Time</li>
+			<li class='temper-link'>Temper</li>
+			<li class='appreciation-link'>Appreciation</li>
+		</ul>
 
 	</div>
 
@@ -18,7 +36,7 @@
 	<div class='content'>
 		<div class='home-podcasts'>
 			<a href='justin.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all stereotypes impulse bubbles appearance'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -33,7 +51,7 @@
 			</div>
 			</a>
 			<a href='yasmeen.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all appearance time appreciation'>
 				<div class='podcast-head'>
 					<div class='header'>
 							<p class='episode'>
@@ -48,7 +66,7 @@
 			</div>
 			</a>
 			<a href='chuck.html'>
-			<div class='podcast-thumbnail last'>
+			<div class='podcast all stereotypes parenting time last'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -63,7 +81,7 @@
 			</div>
 			</a>
 			<a href='lynn.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -78,7 +96,7 @@
 			</div>
 			</a>
 			<a href='tina.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -93,7 +111,7 @@
 			</div>
 			</a>
 			<a href='iris.html'>
-			<div class='podcast-thumbnail last'>
+			<div class='podcast all last'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -109,7 +127,7 @@
 			</a>
 
 			<a href='eve.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -124,7 +142,7 @@
 			</div>
 			</a>
 			<a href='alfonso.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -138,7 +156,7 @@
 			</div>
 			</a>
 			<a href='chelsea.html'>
-			<div class='podcast-thumbnail last'>
+			<div class='podcast all last'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -154,7 +172,7 @@
 
 			</a>
 			<a href='mitch.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -169,7 +187,7 @@
 			</div>
 			</a>
 			<a href='lauren.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -184,7 +202,7 @@
 			</div>
 			</a>
 			<a href='janice.html'>
-			<div class='podcast-thumbnail last'>
+			<div class='podcast all last'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -199,7 +217,7 @@
 			</div>
 			</a>
 			<a href='rosa.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -214,7 +232,7 @@
 			</div>
 			</a>
 			<a href='jan.html'>
-			<div class='podcast-thumbnail'>
+			<div class='podcast all'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -229,7 +247,7 @@
 			</div>
 			</a>
 			<a href='emma.html'>
-			<div class='podcast-thumbnail last'>
+			<div class='podcast all last'>
 				<div class='podcast-head'>
 					<div class='header'>
 						<p class='episode'>
@@ -264,7 +282,7 @@
 			$('.podcast.impulse').show();
 		});
 
-		$('li.-real-friends-link').click(function(){
+		$('li.real-friends-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.real-friends').show();
 		});
@@ -294,7 +312,7 @@
 			$('.podcast.unfair-wrong').show();
 		});
 
-		$('li.outward-appearance-link').click(function(){
+		$('li.appearance-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.outward-appearance').show();
 		});
@@ -328,27 +346,6 @@
 			$('.podcast').hide();
 			$('.podcast.appreciation').show();
 		});
-
-		$('li.sports-link').click(function(){
-			$('.podcast').hide();
-			$('.podcast.sports').show();
-		});
-
-		$('li.thriller-link').click(function(){
-			$('.podcast').hide();
-			$('.podcast.thriller').show();
-		});
-
-		$('li.western-link').click(function(){
-			$('.podcast').hide();
-			$('.podcast.western').show();
-		});
-
-		$('#mobile-nav-button').click(function(){
-			$('#mobile-nav').toggle();
-		});
-
-
 });
 </script>
 

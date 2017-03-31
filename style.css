@@ -51,6 +51,12 @@ h4 {
 	z-index: 2;
 	height:79px;
 }
+.nav {
+	display: table;
+}
+.nav li {
+	display: table-cell;
+}
 /*------------------------------------------------------ HOME CONTENT */
 .content {
 	width: 925px;
@@ -65,7 +71,7 @@ h4 {
 	height: auto;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
-.podcast-thumbnail {
+.podcast {
 	float:left;
 	margin: 50px 50px 0px 0px;
 	height:340px;
