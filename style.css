@@ -88,7 +88,8 @@ h4 {
 	border:1px solid black;
 	display: table;
 	color: white;
-	background-color: rgba(65,72,73,1);
+	/*background-color: rgba(65,72,73,1);*/
+	background-color: #06afc4;
 }
 .podcast-image {
 	height: 125px;
@@ -114,7 +115,7 @@ h4 {
 	margin: 0;
 	font-weight: normal;
 	line-height: 1.2em;
-	color: black;
+	/*color: black;*/
 }
 .title {
 	font-family: 'Brandon Text W01 Light';
@@ -122,7 +123,7 @@ h4 {
 	font-weight: normal;
 	margin: 0;
 	letter-spacing: .5px;
-	color: black;
+	/*color: black;*/
 }
 .last {
 	margin-right:0;
