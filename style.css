@@ -87,6 +87,8 @@ h4 {
 	left: 0;
 	border:1px solid black;
 	display: table;
+	color: white;
+	background-color: rgba(65,72,73,1);
 }
 .podcast-image {
 	height: 125px;
