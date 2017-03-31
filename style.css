@@ -79,7 +79,7 @@ h4 {
 	position: relative;
 }
 .podcast-head {
-	height:155px;
+	height:175px;
 	width: 275px;
 	position: absolute;
 	padding: 10px;
@@ -89,9 +89,9 @@ h4 {
 	display: table;
 }
 .podcast-image {
-	height: 120px;
+	height: 125px;
 	width: 275px;
-	top: 50px;
+	top: 175px;
 	left: 0;
 	position: absolute;
 	border:1px solid black;
