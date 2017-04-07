@@ -122,10 +122,11 @@ h4 {
 	line-height: 1.4em;
 	letter-spacing: .5px;
 }
-.quote {
+.quote, .age {
 	font-family: 'Brandon Text W01 Light';
 	font-weight: normal;
 	margin: 0;
+	font-size: 10pt;
 }
 .last {
 	margin-right:0;
