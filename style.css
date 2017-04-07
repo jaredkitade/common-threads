@@ -10,7 +10,7 @@ body {
 	line-height: 1.5em;
 }
 p {
-	margin:0;
+	/*margin:0;*/
 }
 a {
 	text-decoration: none;
@@ -107,27 +107,28 @@ h4 {
 	vertical-align: middle;
 }
 .episode {
-	font-size: 24pt;
+	font-size: 16pt;
 	font-family:'Brandon Text W01 Light';
+	letter-spacing: .5px;
 }
 .title {
 	font-family: 'Brandon Text W01 Bold';
+	letter-spacing: .25px;
 }
 .name {
 	font-family:'Brandon Text W01 Bold';
-	font-size: 14pt;
+	font-size: 12pt;
 	margin: 0;
 	font-weight: normal;
 	line-height: 1.2em;
-	/*color: black;*/
+	letter-spacing: .25px;
 }
 .quote {
 	font-family: 'Brandon Text W01 Light';
-	font-size: 10pt;
+	font-size: 12pt;
 	font-weight: normal;
 	margin: 0;
 	letter-spacing: .5px;
-	/*color: black;*/
 }
 .last {
 	margin-right:0;
