@@ -8,7 +8,7 @@ body {
 	font-size: 11pt;
 	color: black;
 	line-height: 1.5em;
-	background-color: rgb(237,237,237);
+	background-color: rgb(240,240,240);
 }
 p {
 	margin:10px 0px;
@@ -76,7 +76,7 @@ h4 {
 	float:left;
 	margin: 50px 20px 0px 0px;
 	height:340px;
-	width:300px;
+	width:270px;
 	position: relative;
 }
 .podcast-head {
@@ -109,7 +109,7 @@ h4 {
 }
 .episode {
 	font-size: 16pt;
-	font-family:'Brandon Text W01 Light';
+	font-family:'Brandon Text W01 Bold';
 	letter-spacing: .5px;
 }
 .title {
