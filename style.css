@@ -89,7 +89,8 @@ h4 {
 	/*border:1px solid black;*/
 	/*display: table;*/
 	color: white;
-	background-color: rgb(120,110,170);
+	/*background-color: rgb(120,110,170);*/
+	background-color: lightslategrey;
 	/*text-align: center;*/
 }
 .podcast-description {
@@ -109,14 +110,15 @@ h4 {
 }
 .episode {
 	font-size: 16pt;
-	font-family:'Brandon Text W01 Bold';
+	/*font-family:'Brandon Text W01 Bold';*/
+	font-family: 'Brandon Text W01 Light';
 	letter-spacing: .5px;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 }
 .title {
 	font-family: 'Brandon Text W01 Bold';
 	/*letter-spacing: .25px;*/
-	text-transform: none;
+	/*text-transform: none;*/
 }
 .name {
 	font-family:'Brandon Text W01 Bold';
