@@ -59,34 +59,34 @@ h4 {
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
-	width: 925px;
+	width: 940px;
 	margin: 0 auto;
 	height: auto;
 	margin-top:53px;
 	margin-bottom: 55px;
 }
 .home-podcasts {	
-	max-width: 925px;
+	max-width: 940px;
 	margin:0 auto;
 	height: auto;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
 	float:left;
-	margin: 50px 50px 0px 0px;
+	margin: 50px 20px 0px 0px;
 	height:340px;
-	width:275px;
+	width:300px;
 	position: relative;
 }
 .podcast-head {
-	height:150px;
-	width: 275px;
+	height:120px;
+	width: 300px;
 	position: absolute;
-	padding: 10px;
+	padding: 15px;
 	top: 0;
 	left: 0;
 	border:1px solid black;
-	display: table;
+	/*display: table;*/
 	color: white;
 	background-color: rgb(120,110,170);
 	/*text-align: center;*/
@@ -102,8 +102,8 @@ h4 {
 	padding:10px;
 }
 .header {
-	display: table-cell;
-	vertical-align: middle;
+	/*display: table-cell;
+	vertical-align: middle;*/
 }
 .episode {
 	font-size: 16pt;
