@@ -75,8 +75,8 @@ h4 {
 .podcast {
 	float:left;
 	margin: 50px 20px 0px 0px;
-	height:340px;
-	width:270px;
+	height:270px;
+	width:300px;
 	position: relative;
 }
 .podcast-head {
@@ -111,10 +111,12 @@ h4 {
 	font-size: 16pt;
 	font-family:'Brandon Text W01 Bold';
 	letter-spacing: .5px;
+	text-transform:uppercase;
 }
 .title {
 	font-family: 'Brandon Text W01 Bold';
-	letter-spacing: .25px;
+	/*letter-spacing: .25px;*/
+	text-transform: none;
 }
 .name {
 	font-family:'Brandon Text W01 Bold';
