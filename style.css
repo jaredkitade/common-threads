@@ -10,7 +10,7 @@ body {
 	line-height: 1.5em;
 }
 p {
-	/*margin:0;*/
+	margin:10px 0px;
 }
 a {
 	text-decoration: none;
@@ -88,9 +88,8 @@ h4 {
 	border:1px solid black;
 	display: table;
 	color: white;
-	/*background-color: rgba(65,72,73,1);*/
 	background-color: rgb(120,110,170);
-	text-align: center;
+	/*text-align: center;*/
 }
 .podcast-image {
 	height: 125px;
@@ -117,18 +116,16 @@ h4 {
 }
 .name {
 	font-family:'Brandon Text W01 Bold';
-	font-size: 12pt;
+	font-size: 10pt;
 	margin: 0;
 	font-weight: normal;
-	line-height: 1.2em;
-	letter-spacing: .25px;
+	line-height: 1.4em;
+	letter-spacing: .5px;
 }
 .quote {
 	font-family: 'Brandon Text W01 Light';
-	font-size: 12pt;
 	font-weight: normal;
 	margin: 0;
-	letter-spacing: .5px;
 }
 .last {
 	margin-right:0;
