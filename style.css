@@ -76,14 +76,14 @@ h4 {
 	float:left;
 	margin: 50px 20px 0px 0px;
 	height:250px;
-	width:260px;
+	width:220px;
 	position: relative;
 }
 .podcast-head {
-	height:100px;
-	width: 260px;
+	height:75px;
+	width: 220px;
 	position: absolute;
-	padding: 15px;
+	padding: 10px 15px;
 	top: 0;
 	left: 0;
 	/*border:1px solid black;*/
@@ -95,8 +95,8 @@ h4 {
 }
 .podcast-description {
 	height: 150px;
-	width: 260px;
-	top: 120px;
+	width: 220px;
+	top: 75px;
 	left: 0;
 	position: absolute;
 	/*border:1px solid black;*/
@@ -110,7 +110,7 @@ h4 {
 	vertical-align: middle;*/
 }
 .episode {
-	font-size: 18pt;
+	font-size: 14pt;
 	font-family:'Brandon Text W01 Bold';
 	/*font-family: 'Brandon Text W01 Light';*/
 	letter-spacing: .5px;
@@ -125,7 +125,7 @@ h4 {
 .title {
 	/*font-family:'Brandon Text W01 Bold';*/
 	font-family: 'Brandon Text W01 Light';
-	font-size: 14pt;
+	font-size: 11pt;
 	margin: 0;
 	font-weight: normal;
 	line-height: 1.4em;
