@@ -59,19 +59,16 @@ h4 {
 .nav li {
 	display: table-cell;
 }
-.p-top {
-	margin:10px;
-}
 /*------------------------------------------------------ HOME CONTENT */
 .content {
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	height: auto;
 	margin-top:53px;
 	margin-bottom: 55px;
 }
 .home-podcasts {	
-	max-width: 940px;
+	max-width: 960px;
 	margin:0 auto;
 	height: auto;
 }
@@ -134,6 +131,9 @@ h4 {
 	font-weight: normal;
 	line-height: 1.4em;
 	letter-spacing: .5px;
+}
+.p-top {
+	margin:10px 0px;
 }
 .quote {
 	font-family: 'Brandon Text W01 Light';
