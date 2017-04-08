@@ -43,7 +43,7 @@ h4 {
 }
 /*------------------------------------------------------ HEAD */
 .head {
-	width: 925px;
+	width: 960px;
 	margin: 0 auto;
 	position: fixed;
 	top:0;
@@ -51,6 +51,7 @@ h4 {
 	transform:translate(-50%,0);
 	z-index: 2;
 	height:79px;
+	background-color: white;
 }
 .nav {
 	display: table;
