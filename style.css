@@ -117,6 +117,7 @@ h4 {
 }
 .name, .bold {
 	font-family: 'Brandon Text W01 Bold';
+	font-size: inherit;
 	/*letter-spacing: .25px;*/
 	/*text-transform: none;*/
 }
