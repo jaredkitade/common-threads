@@ -109,20 +109,20 @@ h4 {
 	vertical-align: middle;*/
 }
 .episode {
-	font-size: 16pt;
+	font-size: 18pt;
 	/*font-family:'Brandon Text W01 Bold';*/
 	font-family: 'Brandon Text W01 Light';
 	letter-spacing: .5px;
 	/*text-transform:uppercase;*/
 }
-.title {
+.name, .bold {
 	font-family: 'Brandon Text W01 Bold';
 	/*letter-spacing: .25px;*/
 	/*text-transform: none;*/
 }
-.name {
+.title {
 	font-family:'Brandon Text W01 Bold';
-	font-size: 11pt;
+	font-size: 14pt;
 	margin: 0;
 	font-weight: normal;
 	line-height: 1.4em;
