@@ -187,7 +187,11 @@ h4 {
 .related {
 	height: 125px;
 	width: 125px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 	margin: 50px 50px 0px 0px;
+}
+.related img {
+	max-height: 125px;
+	max-width: 125px;
 }
