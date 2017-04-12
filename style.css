@@ -216,14 +216,14 @@ h4 {
 	color: white;
 }
 .overlay p {
-	font-family:'Brandon Text W01 Bold';
+	/*font-family:'Brandon Text W01 Bold';*/
 	position: absolute;
 	left: 50%;
 	top: 45%;
 	transform:translate(-50%,-50%);
-	font-size: 9pt;
+	font-size: 11pt;
 	letter-spacing: .5px;
-	width: 123px;
+	width: 110px;
 	text-align: center;
 }
 .related:hover .overlay {
