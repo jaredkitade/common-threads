@@ -112,9 +112,9 @@ h4 {
 	font-size: 11pt;
 	line-height: 1.7em;
 	text-indent: -5px;
-	background-image: url('images/justin.jpg');
+	/*background-image: url('images/justin.jpg');
 	background-position: top center;
-	opacity: .2;
+	opacity: .2;*/
 }
 .podcast-description {
 	opacity: 1;
