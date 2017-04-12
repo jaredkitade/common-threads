@@ -212,7 +212,7 @@ h4 {
 	position: absolute;
 	/*top: 1px;
 	left: 1px;*/
-	background-color: rgba(105,135,150,.7);
+	background-color: rgb(105,135,150);
 	color: white;
 }
 .overlay p {
@@ -229,4 +229,8 @@ h4 {
 .related:hover .overlay {
 	opacity: 1;
 }
+
+
+
+
 
