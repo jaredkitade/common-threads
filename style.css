@@ -16,7 +16,6 @@ p {
 a {
 	text-decoration: none;
 	color: black;
-	color: white;
 	cursor: pointer;
 	-webkit-transition: .1s ease-out;
     -moz-transition: .1s ease-out;
@@ -93,6 +92,9 @@ h4 {
 	-webkit-transition: .1s ease-in-out;
     -moz-transition: .1s ease-in-out;
     transition: .1s ease-in-out;
+}
+.nav a {
+	color: white;
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
