@@ -95,7 +95,7 @@ h4 {
 	color: white;
 	background-color: rgb(105,135,150);
 	/*text-align: center;*/
-	background-image: url('images/justin.jpg');
+	/*background-image: url('images/justin.jpg');*/
 	background-size: 300px;
 	background-position: top center;
 }
@@ -112,6 +112,12 @@ h4 {
 	font-size: 11pt;
 	line-height: 1.7em;
 	text-indent: -5px;
+	background-image: url('images/justin.jpg');
+	background-position: top center;
+	opacity: .2;
+}
+.podcast-description {
+	opacity: 1;
 }
 .header {
 	/*display: table-cell;
