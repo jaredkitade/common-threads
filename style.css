@@ -95,6 +95,9 @@ h4 {
 	color: white;
 	background-color: rgb(105,135,150);
 	/*text-align: center;*/
+	background-image: url('images/justin.jpg');
+	background-size: 300px;
+	background-position: top center;
 }
 .podcast-description {
 	height: 150px;
