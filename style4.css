@@ -111,7 +111,11 @@ h4 {
 	z-index: 1;
 	left: 960px;
 }
-.sort td {
+.sort th {
+	font-family:'Brandon Text W01 Bold';
+	letter-spacing: .5px;
+}
+.sort td, .sort th {
 	padding: 5px 10px;
 }
 .active {
