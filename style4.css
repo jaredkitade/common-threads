@@ -107,43 +107,32 @@ h4 {
 .sort {
 	float: left;
 	position: fixed;
-	left: 50%;
-	transform:translate(-50%,0);
-	/*right: 20px;*/
-	/*bottom: 0;*/
-	width: 940px;
+	width: 220px;
 	z-index: 1;
+	left: 960px;
 }
-.sort ul {
-	list-style: none;
-	padding: 0;
-}
-.sort li {
-	display: inline-block;
-	letter-spacing: .5px;
-	cursor: pointer;
-	margin-right: 30px;
-}
-.sort a {
-	color: black;
+.sort td {
+	padding: 5px 10px;
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
 	width: 960px;
 	margin: 0 auto;
 	height: auto;
-	margin-top:100px;
+	margin-top:110px;
 	margin-bottom: 55px;
+	position: relative;
 }
 .home-podcasts {	
-	max-width: 960px;
-	margin:0 auto;
+	max-width: 720px;
+	width: 720px;
+	/*margin:0 auto;*/
 	height: auto;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
 	float:left;
-	margin: 50px 20px 0px 0px;
+	margin: 10px 20px 0px 0px;
 	height:250px;
 	width:220px;
 	position: relative;

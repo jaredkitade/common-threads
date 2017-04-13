@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Common Threads Podcast</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style4.css">
 	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />
 	<script type="text/javascript" src="//fast.fonts.net/jsapi/9fed162e-fca2-4291-b51c-42d1c1f922e4.js"></script>
 	<!-- <link rel="shortcut icon" type="img/png" href="images/favicon.ico"> -->
@@ -19,38 +19,6 @@
 			</ul>
 		</div>
 	</div>
-	<table class='sort'>
-		<tr>
-			<th class="all-link">View All</th>
-		</tr>
-		<tr>
-			<td class="stereotypes-link">Stereotypes</td>
-			<td class='impulse-link'>Impulse</td>
-			<td class='real-friends-link'>Real Friends</td>
-			<td class='self-confidence-link'>Self Confidence</td>
-			<td class='regret-link'>Regret</td>
-			<td class='bubbles-link'>Societal Bubbles</td>
-			<td class='singing-link'>Singing</td>
-		</tr>
-		<tr>
-			<td class='overthinking-link'>Overthinking</td>
-			<td class='unfair-wrong-link'>Unfair vs. Wrong</td>
-			<td class='appearance-link'>Appearance</td>
-			<td class='anxiety-link'>Anxiety</td>
-			<td class='marriage-link'>Marriage</td>
-			<td class='adapt-link'>Adapting</td>
-			<td class='family-link'>Family Relationships</td>
-		</tr>
-		<tr>
-			<td class='parenting-link'>Parenting</td>
-			<td class='time-link'>Time</td>
-			<td class='temper-link'>Temper</td>
-			<td class='mindset-link'>Mindset</td>
-			<td class='motivation-link'>Motivation</td>
-			<td class='expectations-link'>Expectations</td>
-			<td class='yourself-link'>Being Yourself</td>
-		</tr>
-	</table>
 
 	<div class='clear'></div>
 
@@ -641,6 +609,55 @@
 			</div>
 			</a>
 		</div>
+		<table class='sort'>
+			<tr>
+				<th>Sort By Topic</th>
+			</tr>
+			<tr>
+				<td class="all-link">View All</th>
+				<td class='yourself-link'>Being Yourself</td>
+			</tr>
+			<tr>
+				<td class="stereotypes-link">Stereotypes</td>
+				<td class='impulse-link'>Impulse</td>
+			</tr>
+			<tr>
+				<td class='real-friends-link'>Real Friends</td>
+				<td class='self-confidence-link'>Self Confidence</td>
+			</tr>
+			<tr>
+				<td class='regret-link'>Regret</td>
+				<td class='bubbles-link'>Societal Bubbles</td>
+			</tr>
+			<tr>
+				<td class='singing-link'>Singing</td>
+				<td class='overthinking-link'>Overthinking</td>
+			</tr>
+			<tr>
+				<td class='unfair-wrong-link'>Unfair vs. Wrong</td>
+				<td class='appearance-link'>Appearance</td>
+				</tr>
+			<tr>
+				<td class='anxiety-link'>Anxiety</td>
+				<td class='marriage-link'>Marriage</td>
+				</tr>
+			<tr>
+				<td class='adapt-link'>Adapting</td>
+				<td class='family-link'>Family Relationships</td>
+				</tr>
+			<tr>
+				<td class='parenting-link'>Parenting</td>
+				<td class='time-link'>Time</td>
+				</tr>
+			<tr>
+				<td class='temper-link'>Temper</td>
+				<td class='mindset-link'>Mindset</td>
+				</tr>
+			<tr>
+				<td class='motivation-link'>Motivation</td>
+				<td class='expectations-link'>Expectations</td>
+				</tr>
+		</table>
 	</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -762,6 +779,25 @@
 			$('.podcast.adapt').show();
 		});
 });
+
+	window.onload = function(){
+
+	    var all = document.getElementsByTagName("td");
+	    for (var i=0;i<all.length;i++) {
+	        all[i].onclick = inputClickHandler;       
+	    }
+	};
+
+	function inputClickHandler(e){
+	    e = e||window.event;
+	    var tdElm = e.target||e.srcElement;
+	    if(tdElm.style.backgroundColor == 'rgb(255, 0, 0)'){
+	        tdElm.style.backgroundColor = '#fff';
+	    } else {
+	        tdElm.style.backgroundColor = '#f00';
+	    }
+	}
+	
 </script>
 
 </html>

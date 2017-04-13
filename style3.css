@@ -107,11 +107,7 @@ h4 {
 .sort {
 	float: left;
 	position: fixed;
-	left: 50%;
-	transform:translate(-50%,0);
-	/*right: 20px;*/
-	/*bottom: 0;*/
-	width: 940px;
+	width: 220px;
 	z-index: 1;
 }
 .sort ul {
@@ -134,16 +130,19 @@ h4 {
 	height: auto;
 	margin-top:100px;
 	margin-bottom: 55px;
+	position: relative;
 }
 .home-podcasts {	
-	max-width: 960px;
+	max-width: 700px;
 	margin:0 auto;
 	height: auto;
+	position: absolute;
+	left: 0;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
 	float:left;
-	margin: 50px 20px 0px 0px;
+	margin: 0px 20px 0px 0px;
 	height:250px;
 	width:220px;
 	position: relative;
