@@ -614,7 +614,7 @@
 				<th>Sort By Topic</th>
 			</tr>
 			<tr>
-				<td class="all-link">View All</th>
+				<td class="all-link active">View All</th>
 				<td class='yourself-link'>Being Yourself</td>
 			</tr>
 			<tr>
@@ -667,137 +667,183 @@
 		$('td.all-link').click(function(){
 			// $('.podcast').hide();
 			$('.all').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.stereotypes-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.stereotypes').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.impulse-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.impulse').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');	
 		});
 
 		$('td.real-friends-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.real-friends').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.self-confidence-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.self-confidence').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.regret-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.regret').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.bubbles-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.bubbles').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.overthinking-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.overthinking').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.unfair-wrong-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.unfair-wrong').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.appearance-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.outward-appearance').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.anxiety-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.anxiety').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.wingstop-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.wingstop').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.parenting-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.parenting').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.time-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.time').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.temper-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.temper').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.mindset-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.mindset').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.motivation-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.motivation').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.expectations-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.expectations').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.family-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.family-relationships').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.yourself-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.yourself').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.singing-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.singing').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.marriage-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.marriage').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 
 		$('td.adapt-link').click(function(){
 			$('.podcast').hide();
 			$('.podcast.adapt').show();
+			$('.sort td').removeClass('active');
+			$(this).toggleClass('active');
 		});
 });
 
-	window.onload = function(){
+	// window.onload = function(){
 
-	    var all = document.getElementsByTagName("td");
-	    for (var i=0;i<all.length;i++) {
-	        all[i].onclick = inputClickHandler;       
-	    }
-	};
+	//     var all = document.getElementsByTagName("td");
+	//     for (var i=0;i<all.length;i++) {
+	//         all[i].onclick = inputClickHandler;       
+	//     }
+	// };
 
-	function inputClickHandler(e){
-	    e = e||window.event;
-	    var tdElm = e.target||e.srcElement;
-	    if(tdElm.style.backgroundColor == 'rgb(255, 0, 0)'){
-	        tdElm.style.backgroundColor = '#fff';
-	    } else {
-	        tdElm.style.backgroundColor = '#f00';
-	    }
-	}
-	
+	// function inputClickHandler(e){
+	//     e = e||window.event;
+	//     var tdElm = e.target||e.srcElement;
+	//     if(tdElm.style.backgroundColor == 'rgb(255, 0, 0)'){
+	//         tdElm.style.backgroundColor = '#fff';
+	//     } else {
+	//         tdElm.style.backgroundColor = '#f00';
+	//     }
+	// }
+
 </script>
 
 </html>
