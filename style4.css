@@ -110,6 +110,7 @@ h4 {
 	width: 220px;
 	z-index: 1;
 	left: 960px;
+	font-size: 9pt;
 }
 .sort th {
 	font-family:'Brandon Text W01 Bold';
@@ -117,6 +118,9 @@ h4 {
 }
 .sort td, .sort th {
 	padding: 5px 10px;
+}
+.sort td {
+	cursor: pointer;
 }
 .active {
 	background-color: rgb(105,135,150);
@@ -136,6 +140,7 @@ h4 {
 	width: 720px;
 	/*margin:0 auto;*/
 	height: auto;
+	margin-top: 20px;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
@@ -227,20 +232,20 @@ h4 {
 }
 /*------------------------------------------------------ PODCAST PAGES */
 .podcast-episode {
-	width: 840px;
+	width: 700px;
 	height: auto;
 	float: left;
 	/*border-right: 1px solid black;*/
 }
 .player {
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	margin: 25px 50px 0 0;
 	border:1px solid black;
 	float: left;
 }
 .description {
-	width: 340px;
+	width: 300px;
 	margin: 25px 50px 0 0;
 	float: left;
 }
@@ -248,7 +253,7 @@ h4 {
 	margin-top: 15px;
 }
 .topics {
-	width: 100px;
+	width: 220px;
 	margin-top: 40px;
 	height: auto;
 	float: left;
