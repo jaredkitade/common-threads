@@ -611,7 +611,7 @@
 		</div>
 		<table class='sort'>
 			<tr>
-				<th>Sort By Topic</th>
+				<th colspan='2'>Sort By Topic</th>
 			</tr>
 			<tr>
 				<td class="all-link active">View All</th>
@@ -824,25 +824,7 @@
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
-});
-
-	// window.onload = function(){
-
-	//     var all = document.getElementsByTagName("td");
-	//     for (var i=0;i<all.length;i++) {
-	//         all[i].onclick = inputClickHandler;       
-	//     }
-	// };
-
-	// function inputClickHandler(e){
-	//     e = e||window.event;
-	//     var tdElm = e.target||e.srcElement;
-	//     if(tdElm.style.backgroundColor == 'rgb(255, 0, 0)'){
-	//         tdElm.style.backgroundColor = '#fff';
-	//     } else {
-	//         tdElm.style.backgroundColor = '#f00';
-	//     }
-	// }
+	});
 
 </script>
 
