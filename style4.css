@@ -104,14 +104,20 @@ h4 {
 .nav a {
 	color: white;
 }
+table {
+	border-collapse: collapse;
+}
 .sort {
 	float: left;
 	position: fixed;
 	width: 220px;
 	z-index: 1;
 	left: 960px;
-	top:125px;
+	top:130px;
 	font-size: 9pt;
+}
+.center {
+	text-align: center;
 }
 .sort th {
 	font-family:'Brandon Text W01 Bold';
@@ -122,10 +128,12 @@ h4 {
 }
 .sort td {
 	cursor: pointer;
+	width: 110px;
 }
 .active {
 	background-color: rgb(105,135,150);
 	color: white;
+	/*border:1px solid black;*/
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
