@@ -104,46 +104,57 @@ h4 {
 .nav a {
 	color: white;
 }
+table {
+	border-collapse: collapse;
+}
 .sort {
 	float: left;
 	position: fixed;
-	left: 50%;
-	transform:translate(-50%,0);
-	/*right: 20px;*/
-	/*bottom: 0;*/
-	width: 940px;
+	width: 220px;
 	z-index: 1;
+	left: 960px;
+	top:130px;
+	font-size: 9pt;
 }
-.sort ul {
-	list-style: none;
-	padding: 0;
+.center {
+	text-align: center;
 }
-.sort li {
-	display: inline-block;
+.sort th {
+	font-family:'Brandon Text W01 Bold';
 	letter-spacing: .5px;
-	cursor: pointer;
-	margin-right: 30px;
 }
-.sort a {
-	color: black;
+.sort td, .sort th {
+	padding: 5px 10px;
+}
+.sort td {
+	cursor: pointer;
+	width: 110px;
+}
+.active {
+	background-color: rgb(105,135,150);
+	color: white;
+	/*border:1px solid black;*/
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
 	width: 960px;
 	margin: 0 auto;
 	height: auto;
-	margin-top:100px;
+	margin-top:110px;
 	margin-bottom: 55px;
+	position: relative;
 }
 .home-podcasts {	
-	max-width: 960px;
-	margin:0 auto;
+	max-width: 720px;
+	width: 720px;
+	/*margin:0 auto;*/
 	height: auto;
+	margin-top: 20px;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
 	float:left;
-	margin: 50px 20px 0px 0px;
+	margin: 10px 20px 0px 0px;
 	height:250px;
 	width:220px;
 	position: relative;
@@ -230,20 +241,20 @@ h4 {
 }
 /*------------------------------------------------------ PODCAST PAGES */
 .podcast-episode {
-	width: 840px;
+	width: 700px;
 	height: auto;
 	float: left;
 	/*border-right: 1px solid black;*/
 }
 .player {
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	margin: 25px 50px 0 0;
 	border:1px solid black;
 	float: left;
 }
 .description {
-	width: 340px;
+	width: 300px;
 	margin: 25px 50px 0 0;
 	float: left;
 }
@@ -251,7 +262,7 @@ h4 {
 	margin-top: 15px;
 }
 .topics {
-	width: 100px;
+	width: 220px;
 	margin-top: 40px;
 	height: auto;
 	float: left;
@@ -312,6 +323,9 @@ h4 {
     -moz-transition: .1s ease-in-out;
     transition: .1s ease-in-out;
 }
+
+
+
 
 
 

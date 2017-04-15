@@ -104,57 +104,46 @@ h4 {
 .nav a {
 	color: white;
 }
-table {
-	border-collapse: collapse;
-}
 .sort {
 	float: left;
 	position: fixed;
-	width: 220px;
+	left: 50%;
+	transform:translate(-50%,0);
+	/*right: 20px;*/
+	/*bottom: 0;*/
+	width: 940px;
 	z-index: 1;
-	left: 960px;
-	top:130px;
-	font-size: 9pt;
 }
-.center {
-	text-align: center;
+.sort ul {
+	list-style: none;
+	padding: 0;
 }
-.sort th {
-	font-family:'Brandon Text W01 Bold';
+.sort li {
+	display: inline-block;
 	letter-spacing: .5px;
-}
-.sort td, .sort th {
-	padding: 5px 10px;
-}
-.sort td {
 	cursor: pointer;
-	width: 110px;
+	margin-right: 30px;
 }
-.active {
-	background-color: rgb(105,135,150);
-	color: white;
-	/*border:1px solid black;*/
+.sort a {
+	color: black;
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
 	width: 960px;
 	margin: 0 auto;
 	height: auto;
-	margin-top:110px;
+	margin-top:100px;
 	margin-bottom: 55px;
-	position: relative;
 }
 .home-podcasts {	
-	max-width: 720px;
-	width: 720px;
-	/*margin:0 auto;*/
+	max-width: 960px;
+	margin:0 auto;
 	height: auto;
-	margin-top: 20px;
 }
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
 	float:left;
-	margin: 10px 20px 0px 0px;
+	margin: 50px 20px 0px 0px;
 	height:250px;
 	width:220px;
 	position: relative;
@@ -241,20 +230,20 @@ table {
 }
 /*------------------------------------------------------ PODCAST PAGES */
 .podcast-episode {
-	width: 700px;
+	width: 840px;
 	height: auto;
 	float: left;
 	/*border-right: 1px solid black;*/
 }
 .player {
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	margin: 25px 50px 0 0;
 	border:1px solid black;
 	float: left;
 }
 .description {
-	width: 300px;
+	width: 340px;
 	margin: 25px 50px 0 0;
 	float: left;
 }
@@ -262,7 +251,7 @@ table {
 	margin-top: 15px;
 }
 .topics {
-	width: 220px;
+	width: 100px;
 	margin-top: 40px;
 	height: auto;
 	float: left;
@@ -323,8 +312,5 @@ table {
     -moz-transition: .1s ease-in-out;
     transition: .1s ease-in-out;
 }
-
-
-
 
 
