@@ -118,7 +118,7 @@ table {
 	width: 220px;
 	z-index: 1;
 	left: 930px;
-	top:130px;
+	top:120px;
 	font-size: 9pt;
 }
 .center {
@@ -161,10 +161,33 @@ table {
 /*------------------------------------------------------ PODCAST THUMBNAILS */
 .podcast {
 	float:left;
-	margin: 10px 20px 0px 0px;
-	height:250px;
+	margin: 0px 20px 40px 0px;
+	height:220px;
 	width:220px;
 	position: relative;
+	-webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+.pod-overlay {
+	opacity: 0;
+	position: absolute;
+	height: 220px;
+	width: 220px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pod-overlay img {
+	max-height: 250px;
+	max-width: 
+
+}
+.podcast:hover .pod-overlay{
+	opacity: .5;
+	-webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
 }
 .podcast-head {
 	height:70px;
@@ -253,14 +276,14 @@ table {
 .player {
 	width: 325px;
 	height: 325px;
-	margin: 25px 50px 0 0;
+	margin: 20px 50px 0 0;
 	border:1px solid black;
 	float: left;
 }
 .description {
 	width: 325px;
 	height: 325px;
-	margin: 25px 0px 0 0;
+	margin: 20px 0px 0 0;
 	float: left;
 	position: relative;
 }
