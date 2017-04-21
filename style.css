@@ -81,7 +81,7 @@ h4 {
 .nav {
 	float: left;
 	position: absolute;
-	right: 20px;
+	right: 0px;
 	bottom: 0;
 }
 .nav ul {
@@ -93,8 +93,8 @@ h4 {
 	font-family:'Brandon Text W01 Bold';
 	display: inline-block;
 	letter-spacing: .5px;
-	margin-left: 30px;
-	text-transform: uppercase;
+	margin-left: 20px;
+	/*text-transform: uppercase;*/
 	cursor: pointer;
 	color:white;
 	-webkit-transition: .1s ease-in-out;
@@ -112,7 +112,7 @@ table {
 	position: fixed;
 	width: 220px;
 	z-index: 1;
-	left: 960px;
+	left: 930px;
 	top:130px;
 	font-size: 9pt;
 }
@@ -236,9 +236,6 @@ table {
 	margin: 0;
 	font-size: 10pt;
 }
-.last {
-	margin-right:0;
-}
 /*------------------------------------------------------ PODCAST PAGES */
 .podcast-episode {
 	width: 700px;
@@ -323,7 +320,9 @@ table {
     -moz-transition: .1s ease-in-out;
     transition: .1s ease-in-out;
 }
-
+.last {
+	margin-right:0;
+}
 
 
 
