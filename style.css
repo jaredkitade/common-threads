@@ -21,12 +21,8 @@ th {
 	border: none;
 }
 td {
-	background-color: white;
+	/*background-color: white;*/
 
-}
-td:hover {
-	/*text-decoration: underline;*/
-	font-family:'Brandon Text W01 Bold';
 }
 a {
 	text-decoration: none;
@@ -150,6 +146,10 @@ table {
 	cursor: pointer;
 	width: 110px;
 }
+.sort td:hover {
+	/*text-decoration: underline;*/
+	font-family:'Brandon Text W01 Bold';
+}
 .threads {
 	float: left;
 	position: fixed;
@@ -170,7 +170,6 @@ table {
 	padding: 5px 10px;
 }
 .threads td {
-	cursor: pointer;
 	width: 110px;
 }
 .active {
