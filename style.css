@@ -19,6 +19,9 @@ th {
 td {
 	background-color: white;
 }
+td:hover {
+	text-decoration: underline;
+}
 a {
 	text-decoration: none;
 	color: inherit;
@@ -134,6 +137,8 @@ table {
 .active {
 	background-color: rgb(105,135,150);
 	color: white;
+	text-decoration: underline;
+	font-family:'Brandon Text W01 Bold';
 	/*border:1px solid black;*/
 }
 /*------------------------------------------------------ HOME CONTENT */
