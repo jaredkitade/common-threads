@@ -20,7 +20,8 @@ td {
 	background-color: white;
 }
 td:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	font-family:'Brandon Text W01 Bold';
 }
 a {
 	text-decoration: none;
