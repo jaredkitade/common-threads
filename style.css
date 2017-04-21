@@ -21,7 +21,7 @@ td {
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: inherit;
 	cursor: pointer;
 	-webkit-transition: .1s ease-out;
     -moz-transition: .1s ease-out;
@@ -245,16 +245,16 @@ table {
 	/*border-right: 1px solid black;*/
 }
 .player {
-	width: 300px;
-	height: 300px;
+	width: 325px;
+	height: 325px;
 	margin: 25px 50px 0 0;
 	border:1px solid black;
 	float: left;
 }
 .description {
-	width: 300px;
-	height: 300px;
-	margin: 25px 50px 0 0;
+	width: 325px;
+	height: 325px;
+	margin: 25px 0px 0 0;
 	float: left;
 	position: relative;
 }
@@ -286,16 +286,16 @@ table {
 	/*margin-top: 15px;*/
 }
 .related {
-	height: 125px;
-	width: 125px;
+	height: 137px;
+	width: 137px;
 	border: 1px solid black;
 	float: left;
 	margin: 25px 50px 0px 0px;
 	position: relative;
 }
 .related img {
-	max-height: 123px;
-	max-width: 123px;
+	max-height: 135px;
+	max-width: 135px;
 }
 .overlay {
 	opacity: 0;
