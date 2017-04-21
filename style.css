@@ -13,11 +13,16 @@ body {
 p {
 	margin:0px;
 }
+table {
+	/*border:1px solid black;*/
+}
 th {
 	text-align: left;
+	border: none;
 }
 td {
 	background-color: white;
+
 }
 td:hover {
 	/*text-decoration: underline;*/
@@ -142,6 +147,29 @@ table {
 	padding: 5px 10px;
 }
 .sort td {
+	cursor: pointer;
+	width: 110px;
+}
+.threads {
+	float: left;
+	position: fixed;
+	width: 220px;
+	z-index: 1;
+	left: 980px;
+	top:145px;
+	font-size: 9pt;
+}
+.center {
+	text-align: center;
+}
+.threads th {
+	font-family:'Brandon Text W01 Bold';
+	letter-spacing: .5px;
+}
+.threads td, .threads th {
+	padding: 5px 10px;
+}
+.threads td {
 	cursor: pointer;
 	width: 110px;
 }
