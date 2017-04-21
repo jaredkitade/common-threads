@@ -253,8 +253,17 @@ table {
 }
 .description {
 	width: 300px;
+	height: 300px;
 	margin: 25px 50px 0 0;
 	float: left;
+	position: relative;
+}
+.next {
+	font-family:'Brandon Text W01 Bold';
+	color: rgb(105,135,150);
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .summary {
 	margin-top: 15px;
