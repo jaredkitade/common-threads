@@ -102,9 +102,9 @@ h4 {
 	cursor: pointer;
 	color:white;
 	font-size: 10pt;
-	-webkit-transition: .1s ease-in-out;
-    -moz-transition: .1s ease-in-out;
-    transition: .1s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .nav a {
 	color: white;
@@ -165,9 +165,9 @@ table {
 	height:220px;
 	width:220px;
 	position: relative;
-	/*-webkit-transition: .1s ease-in-out;
-    -moz-transition: .1s ease-in-out;
-    transition: .1s ease-in-out;*/
+	/*-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;*/
 }
 .pod-overlay {
 	opacity: 0;
@@ -179,9 +179,9 @@ table {
 	left: 0;
 	border:1px solid black;
 	z-index: 2;
-	-webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .pod-overlay img {
 	max-height: 218px;
@@ -198,21 +198,21 @@ table {
 	left: 0;
 	z-index: 1;
 	border:1px solid black;
-	-webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .podcast:hover .pod-overlay{
 	opacity: .2;
-	-webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .podcast:hover .background {
 	opacity: 1;
-	-webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .podcast-head {
 	height:70px;
@@ -360,9 +360,9 @@ table {
 	left: 1px;*/
 	background-color: rgb(105,135,150);
 	color: white;
-	-webkit-transition: .1s ease-in-out;
-    -moz-transition: .1s ease-in-out;
-    transition: .1s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .overlay p {
 	/*font-family:'Brandon Text W01 Bold';*/
@@ -374,15 +374,15 @@ table {
 	letter-spacing: .5px;
 	width: 110px;
 	text-align: center;
-	-webkit-transition: .1s ease-in-out;
-    -moz-transition: .1s ease-in-out;
-    transition: .1s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .related:hover .overlay {
 	opacity: 1;
-	-webkit-transition: .1s ease-in-out;
-    -moz-transition: .1s ease-in-out;
-    transition: .1s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 .last {
 	margin-right:0;
