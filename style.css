@@ -92,11 +92,12 @@ h4 {
 .nav li {
 	font-family:'Brandon Text W01 Bold';
 	display: inline-block;
-	letter-spacing: .5px;
+	letter-spacing: .6px;
 	margin-left: 20px;
 	/*text-transform: uppercase;*/
 	cursor: pointer;
 	color:white;
+	font-size: 10pt;
 	-webkit-transition: .1s ease-in-out;
     -moz-transition: .1s ease-in-out;
     transition: .1s ease-in-out;
