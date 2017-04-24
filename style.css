@@ -39,9 +39,9 @@ a {
     -moz-transition: .1s ease-out;
     transition: .1s ease-out;
 }
-a:hover {
+/*a:hover {
 	text-decoration: underline;
-}
+}*/
 h1 {
 	margin: 0;
 	font-weight: normal;
@@ -138,6 +138,12 @@ h4 {
 }
 .nav a {
 	color: white;
+}
+.nav li:hover {
+	font-family:'Brandon Text W01 Bold';
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
 }
 table {
 	border-collapse: collapse;
@@ -295,6 +301,7 @@ table {
 /*------------------------------------------------------ PODCAST PAGES */
 .podcast-episode {
 	width: 700px;
+	margin-bottom: 55px;
 	height: auto;
 	float: left;
 	/*border-right: 1px solid black;*/
@@ -319,6 +326,9 @@ table {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+.next:hover {
+	text-decoration: underline;
 }
 .summary {
 	margin-top: 15px;
@@ -478,7 +488,7 @@ table {
 	background-color: white;
 	display: none;
 }
-#mobile-sort-button {
+#mobile-sort-button, #mobile-topic-button {
     position: fixed;
     background: white;
     bottom: 0;
@@ -492,7 +502,7 @@ table {
 	font-size: 26px;
     /*text-align: center;*/
 }
-#mobile-sort-button p {
+#mobile-sort-button p, #mobile-topic-button p {
 	width: 20px;
 	position: absolute;
 	transform:translate(-50%,-50%);
@@ -542,9 +552,48 @@ table {
 		width: 720px;
 	}
 	.home-podcasts {
-		width: 480px;
+		width: 460px;
 	}
 	.sort-container {
+		left: 500px;
+	}
+	.podcast-episode {
+		width: 480px;
+	}
+	.player {
+		float: none;
+		width: 460px;
+		height: 460px;
+	}
+	.player iframe {
+		height: 458px;
+	}
+	.description {
+		width: 460px;
+		height: 200px;
+		float: none;
+	}
+	.related-container {
+		display: none;
+	}
+	.related {
+		width: 205px;
+		height: 235px;
+	}
+	.overlay {
+		bottom: 0;
+		opacity: 1;
+		height: 30px;
+		width: 203px;
+	}
+	.related img {
+		max-width: 203px;
+		max-height: 203px;
+	}
+	.related-container-mobile {
+		display: block;
+	}
+	.threads-container {
 		left: 500px;
 	}
 }
@@ -560,6 +609,24 @@ table {
 	}
 	.sort-container {
 		left: 260px;
+	}
+	.threads-container {
+		display: none;
+	}
+	.threads-container-mobile {
+		display: block;
+	}
+	#mobile-topic-button {
+		display: block;
+	}
+	.related {
+		height: 235px;
+	}
+	.overlay {
+		bottom: 0;
+		opacity: 1;
+		height: 30px;
+		width: 203px;
 	}
 }
 @media only screen and (max-width: 375px) {
