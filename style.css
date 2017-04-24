@@ -552,13 +552,13 @@ table {
 		width: 720px;
 	}
 	.home-podcasts {
-		width: 460px;
+		width: 480px;
 	}
 	.sort-container {
 		left: 500px;
 	}
 	.podcast-episode {
-		width: 480px;
+		width: 460px;
 	}
 	.player {
 		float: none;
@@ -580,11 +580,19 @@ table {
 		width: 205px;
 		height: 235px;
 	}
+	.related img {
+		position: absolute;
+    	bottom: 0;
+   		left: 0;
+	}
 	.overlay {
-		bottom: 0;
+		top: 0;
 		opacity: 1;
 		height: 30px;
 		width: 203px;
+	}
+	.size {
+		font-size: 10pt;
 	}
 	.related img {
 		max-width: 203px;
@@ -623,13 +631,13 @@ table {
 		height: 235px;
 	}
 	.overlay {
-		bottom: 0;
+		top: 0;
 		opacity: 1;
 		height: 30px;
 		width: 203px;
 	}
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
 	h1 {
 		text-align: center;
 	}
@@ -680,11 +688,17 @@ table {
 	.player {
 		float: none;
 		margin-top: 30px;
+		width: 325px;
+		height: 325px;
+	}
+	.player iframe {
+		height: 323px;
 	}
 	.description {
 		float: none;
 		margin-top: 30px;
 		height: 250px;
+		width: 325px;
 	}
 	.next {
 		left: 50%;
