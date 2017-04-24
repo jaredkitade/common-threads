@@ -439,12 +439,51 @@ table {
 	color: white;
 	text-decoration: underline;
 	font-family:'Brandon Text W01 Bold';
-	/*border:1px solid black;*/
 }
-/
 
 
 
-
+@media only screen and (max-width: 980px) {
+	.head {
+		width: 720px;
+	}
+	.content {
+		width: 720px;
+	}
+	.home-podcasts {
+		width: 480px;
+	}
+	.sort-container {
+		left: 500px;
+	}
+}
+@media only screen and (max-width: 720px) {
+	.head {
+		width: 480px;
+	}
+	.content {
+		width: 480px;
+	}
+	.home-podcasts {
+		width: 200px;
+	}
+	.sort-container {
+		left: 260px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.head {
+		width: 480px;
+	}
+	.content {
+		width: 480px;
+	}
+	.home-podcasts {
+		width: 200px;
+	}
+	.sort-container {
+		left: 260px;
+	}
+}
 
 
