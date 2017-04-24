@@ -11,7 +11,25 @@
 <body>
 	<div class='page-head'>
 		<div class='head'>
-			<div class='page-title'><h2><a href='index.html'>Common Threads</a></h2></div>
+			<div class='page-title'>
+				<h2>
+					<a href='index.html'>Common Threads</a>
+				</h2>
+			</div>
+			<ul class='nav'>
+				<li><a href='index.html'>Episodes</a></li>
+				<li><a href='about.html'>About</a></li>
+				<li><a href='https://soundcloud.com/common-threads-podcast'>SoundCloud</a></li>
+				<!-- <li>Episodes</li> -->
+			</ul>
+		</div>
+		<div class='head-mobile'>
+			<div class='page-title'>
+				<h2>
+					<a href='index.html'>Common Threads</a>
+				</h2>
+			</div>
+			<div class='clear'></div>
 			<ul class='nav'>
 				<li><a href='index.html'>Episodes</a></li>
 				<li><a href='about.html'>About</a></li>
@@ -41,55 +59,108 @@
 				<div class='next'><a href="yasmeen.html">Next &#8605; Yasmeen</a></div>
 			</div>
 			<div class='clear'></div>
-			<h3>Related:</h3>
-			<a href="">
-				<div class='related'>
-					<div class='overlay'>
-						<p>
-							<!-- Episode 12
-							<br> -->
-							<span class='bold size'>Eric</span>
-						</p>
+			<div class='related-container'>
+				<h3>Related:</h3>
+				<a href="">
+					<div class='related'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 12
+								<br> -->
+								<span class='bold size'>Eric</span>
+							</p>
+						</div>
+						<img src='images/eric.jpg'>
 					</div>
-					<img src='images/eric.jpg'>
-				</div>
-			</a>
-			<a href="">
-				<div class='related'>
-					<div class='overlay'>
-						<p>
-							<!-- Episode 15
-							<br> -->
-							<span class='bold size'>Chelsea</span>
-						</p>
+				</a>
+				<a href="">
+					<div class='related'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 15
+								<br> -->
+								<span class='bold size'>Chelsea</span>
+							</p>
+						</div>
+						<img src='images/chelsea.jpg'>
 					</div>
-					<img src='images/chelsea.jpg'>
-				</div>
-			</a>
-			<a href="">
-				<div class='related'>
-					<div class='overlay'>
-						<p>
-							<!-- Episode 7
-							<br> -->
-							<span class='bold size'>Eve</span>
-						</p>
+				</a>
+				<a href="">
+					<div class='related'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 7
+								<br> -->
+								<span class='bold size'>Eve</span>
+							</p>
+						</div>
+						<img src='images/eve.jpg'>
 					</div>
-					<img src='images/eve.jpg'>
-				</div>
-			</a>
-			<a href="">
-				<div class='related last'>
-					<div class='overlay'>
-						<p>
-							<!-- Episode 8
-							<br> -->
-							<span class='bold size'>Alfonso</span>
-						</p>
+				</a>
+				<a href="">
+					<div class='related last'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 8
+								<br> -->
+								<span class='bold size'>Alfonso</span>
+							</p>
+						</div>
+						<img src='images/alfonso.jpg'>
 					</div>
-					<img src='images/alfonso.jpg'>
-				</div>
-			</a>
+				</a>
+			</div>
+			<div class='related-container-mobile'>
+				<h3>Related:</h3>
+				<a href="">
+					<div class='related'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 12
+								<br> -->
+								<span class='bold size'>Eric</span>
+							</p>
+						</div>
+						<img src='images/eric.jpg'>
+					</div>
+				</a>
+				<a href="">
+					<div class='related last'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 15
+								<br> -->
+								<span class='bold size'>Chelsea</span>
+							</p>
+						</div>
+						<img src='images/chelsea.jpg'>
+					</div>
+				</a>
+				<a href="">
+					<div class='related'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 7
+								<br> -->
+								<span class='bold size'>Eve</span>
+							</p>
+						</div>
+						<img src='images/eve.jpg'>
+					</div>
+				</a>
+				<a href="">
+					<div class='related last'>
+						<div class='overlay'>
+							<p>
+								<!-- Episode 8
+								<br> -->
+								<span class='bold size'>Alfonso</span>
+							</p>
+						</div>
+						<img src='images/alfonso.jpg'>
+					</div>
+				</a>
+			</div>
 		</div>
 		<div class='threads-container'>
 			<table class='threads'>
@@ -137,85 +208,6 @@
 	</div>
 
 </body>
-<script>
-	$(document).ready(function(){
-		
-		$('li.all-link').click(function(){
-			// $('.podcast').show();
-			$('.all').show();
-		});
-
-		$('li.stereotypes-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.stereotypes').show();
-		});
-
-		$('li.impulse-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.impulse').show();
-		});
-
-		$('li.real-friends-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.real-friends').show();
-		});
-
-		$('li.self-confidence-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.self-confidence').show();
-		});
-
-		$('li.regret-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.regret').show();
-		});
-
-		$('li.bubbles-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.bubbles').show();
-		});
-
-		$('li.overthinking-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.overthinking').show();
-		});
-
-		$('li.unfair-wrong-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.unfair-wrong').show();
-		});
-
-		$('li.appearance-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.outward-appearance').show();
-		});
-
-		$('li.anxiety-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.anxiety').show();
-		});
-
-		$('li.parenting-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.parenting').show();
-		});
-
-		$('li.time-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.time').show();
-		});
-
-		$('li.temper-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.temper').show();
-		});
-
-		$('li.appreciation-link').click(function(){
-			$('.podcast').show();
-			$('.podcast.appreciation').show();
-		});
-});
-</script>
 
 </html>
 
