@@ -676,7 +676,7 @@
 			</a>
 		</div>
 		<div class='sort-container'>
-			<table id='mobile-sort'>
+			<table class='sort'>
 				<tr>
 					<th colspan='2' class='center'>Sort By Topic</th>
 				</tr>
@@ -728,8 +728,9 @@
 					<td class='time-link'>Time</td>
 				</tr>
 			</table>
-			<!-- <div id='background'></div> -->
-			<table class='sort'>
+		</div>
+		<div class='sort-container-mobile'>
+			<table id='mobile-sort'>
 				<tr>
 					<th colspan='2' class='center'>Sort By Topic</th>
 				</tr>
@@ -949,12 +950,249 @@
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
+
+
+
+
+
+
+
+				$('td.all-link').click(function(){
+			// $('.podcast').hide();
+			$('.all').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.stereotypes-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.stereotypes').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.impulse-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.impulse').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');	
+		});
+
+		$('td.real-friends-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.real-friends').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.self-confidence-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.self-confidence').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.regret-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.regret').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.bubbles-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.bubbles').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.overthinking-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.overthinking').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.loss-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.loss').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.appearance-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.appearance').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.anxiety-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.anxiety').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.balance-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.balance').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.parenting-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.parenting').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.time-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.time').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.temper-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.temper').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.mindset-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.mindset').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.motivation-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.motivation').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.expectations-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.expectations').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.family-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.family').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.yourself-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.yourself').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.singing-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.singing').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.marriage-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.marriage').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
+
+		$('td.adapt-link').click(function(){
+			$('.podcast').hide();
+			$('.podcast.adapt').fadeIn();
+			$('#mobile-sort td').removeClass('active');
+			$(this).toggleClass('active');
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
 		$('#mobile-sort-button').click(function(){
-		$('#mobile-sort').toggle();
-
+			$('.sort-container-mobile').toggle();
+			$('#mobile-sort').toggle();
+			$('.home-podcasts').toggle('.pointer');
+		});
 	});
 
-	});
 
 </script>
 

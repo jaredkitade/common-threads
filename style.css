@@ -11,6 +11,9 @@ body {
 	background-color: rgb(240,240,240);
 	height: auto;
 }
+.pointer {
+	pointer-events:none;
+}
 p {
 	margin:0px;
 }
@@ -144,6 +147,7 @@ table {
 	margin-top:110px;
 	margin-bottom: 55px;
 	position: relative;
+	z-index: 1;
 }
 .home-podcasts {	
 	max-width: 720px;
@@ -417,28 +421,6 @@ table {
 	/*text-decoration: underline;*/
 	font-family:'Brandon Text W01 Bold';
 }
-.sort-mobile {
-	display: none;
-	position: fixed;
-	width: 120px;
-	z-index: 1;
-	font-size: 9pt;
-}
-.sort-mobile th {
-	font-family:'Brandon Text W01 Bold';
-	letter-spacing: .5px;
-}
-.sort-mobile td, .sort-mobile th {
-	padding: 5px 10px;
-}
-.sort-mobile td {
-	cursor: pointer;
-	width: 110px;
-}
-.sort-mobile td:hover {
-	/*text-decoration: underline;*/
-	font-family:'Brandon Text W01 Bold';
-}
 .threads-container {
 	position: absolute;
 	width: 220px;
@@ -475,6 +457,15 @@ table {
 	text-decoration: underline;
 	font-family:'Brandon Text W01 Bold';
 }
+.sort-container-mobile {
+	position: absolute;
+	width: 220px;
+	height: auto;
+	z-index: 1;
+	left: 260px;
+	top:10px;
+	display: none;
+}
 #mobile-sort-button {
     position: fixed;
     background: white;
@@ -497,19 +488,30 @@ table {
 	top: 50%;
 }
 #mobile-sort {
+	display: none;
 	position: fixed;
     left: 50%;
     transform:translate(-50%,0);
     bottom: 40px;
     height: 450px;
-    width: 260px;
-    /*background: rgba(105,135,150,.8);*/
+    width: 240px;
     background: white;
-    display: none;
-    z-index: 999;
+	z-index: 999;
     overflow: scroll;
     cursor: pointer;
     color: black;
+    font-size: 9pt;
+}
+#mobile-sort th {
+	font-family:'Brandon Text W01 Bold';
+	letter-spacing: .5px;
+}
+#mobile-sort td, #mobile-sort th {
+	padding: 5px 10px;
+}
+#mobile-sort td {
+	cursor: pointer;
+	width: 110px;
 }
 /*#background {
 	background-color: white;
@@ -562,7 +564,11 @@ table {
 		width: 200px;
 	}
 	.sort-container {
-		left: 260px;
+		/*left: 260px;*/
+		display: none;
+	}
+	.sort-container-mobile {
+		/*display: block;*/
 	}
 	.sort {
 		display: none;
@@ -593,8 +599,6 @@ table {
 		left: 50%;
    		padding: 0;
     	transform: translate(-50%,0);
-}
-
 	}
 }
 
