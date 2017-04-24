@@ -11,7 +11,7 @@
 <body>
 	<div class='page-head'>
 		<div class='head'>
-			<div class='page-title'><h1>Common Threads</h1></div>
+			<div class='page-title'><h2><a href='index.html'>Common Threads</a></h2></div>
 			<ul class='nav'>
 				<li><a href='index.html'>Episodes</a></li>
 				<li><a href='about.html'>About</a></li>
@@ -27,7 +27,7 @@
 		<h1>Episodes</h1>
 		<div class='home-podcasts'>
 			<a href='justin.html'>
-			<div class='podcast all stereotypes impulse bubbles mindset appearance adapt family balance'>
+			<div class='podcast all stereotypes impulse bubbles mindset appearance adapt family balance time'>
 				<div class='pod-overlay'><img src='images/justin.jpg'></div>
 				<div class='background'></div>
 				<div class='podcast-head'>
@@ -42,7 +42,7 @@
 				</div>
 				<div class='podcast-description'>
 					<p>
-						&ldquo;It's so late...I'm too lazy to shower, but I, I DO shower all the time but I don't want to.&rdquo;
+						&ldquo;It's so late...I'm too lazy to shower, but I, I DO fadeIner all the time but I don't want to.&rdquo;
 					</p>
 				</div>
 			</div>
@@ -63,9 +63,6 @@
 					</div>
 				<div class='podcast-description'>
 					<p>
-						<!-- &ldquo;Someone needs to tell them to wake up! <i>&lsquo;It should be you.&rsquo;</i> No I can't...I can't.&rdquo; -->
-						<!-- &ldquo;It's like fifty grand a semester, Stephen Beale what the hell dude? <i>&lsquo;Can I keep that in there?&rsquo;</i> Yes please do!&rdquo; -->
-						<!-- &ldquo;Skillsets...? I make good sandwiches. Vegan sandwiches of course.&rdquo; -->
 						&ldquo;So I’d just be like, breakfast party! And then I’d host an entire breakfast party.&rdquo;
 
 					</p>
@@ -130,8 +127,6 @@
 				</div>
 				<div class='podcast-description'>
 					<p>
-						<!-- &ldquo;NO are you kidding? Just in the off chance I look like I'm engaged and I'm not...I wouldn't want to admit that.&rdquo; -->
-						<!-- &ldquo;Just not so much murky darkness floating around in there.&rdquo; -->
 						&ldquo;Like, oh we're having dinner...and you're thinking about typefaces, THIS. IS NOT. GOOD.&rdquo;
 					</p>
 				</div>
@@ -176,7 +171,6 @@
 				</div>
 				<div class='podcast-description'>
 					<p>
-						<!-- &ldquo;&lsquo;You don't belong here, go back to China! Go back to where all the slaves are!&rsquo;&rdquo; -->
 						&ldquo;Jesus Christ you're three years old, who the fuck taught you this?&rdquo;
 					</p>
 				</div>
@@ -283,7 +277,7 @@
 				<div class='podcast-description'>
 					<p>
 						<!-- &ldquo;Well you know, no one likes to go bald if you're a guy but I think I've worn it well enough.&rdquo; -->
-						&ldquo;To me it's kind of like a shit show in narcissism.&rdquo;
+						&ldquo;To me it's kind of like a shit fadeIn in narcissism.&rdquo;
 					</p>
 				</div>
 			</div>
@@ -667,7 +661,8 @@
 			</div>
 			</a>
 		</div>
-		<table class='sort'>
+		<div class='sort-container'>
+			<table class='sort'>
 			<tr>
 				<th colspan='2' class='center'>Sort By Topic</th>
 			</tr>
@@ -722,7 +717,8 @@
 				<td class='temper-link'>Temper</td>
 				<td class='time-link'>Time</td>
 			</tr>
-		</table>
+			</table>
+		</div>
 	</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -731,161 +727,161 @@
 		
 		$('td.all-link').click(function(){
 			// $('.podcast').hide();
-			$('.all').show();
+			$('.all').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.stereotypes-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.stereotypes').show();
+			$('.podcast.stereotypes').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.impulse-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.impulse').show();
+			$('.podcast.impulse').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');	
 		});
 
 		$('td.real-friends-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.real-friends').show();
+			$('.podcast.real-friends').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.self-confidence-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.self-confidence').show();
+			$('.podcast.self-confidence').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.regret-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.regret').show();
+			$('.podcast.regret').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.bubbles-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.bubbles').show();
+			$('.podcast.bubbles').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.overthinking-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.overthinking').show();
+			$('.podcast.overthinking').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.loss-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.loss').show();
+			$('.podcast.loss').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.appearance-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.appearance').show();
+			$('.podcast.appearance').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.anxiety-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.anxiety').show();
+			$('.podcast.anxiety').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.balance-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.balance').show();
+			$('.podcast.balance').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.parenting-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.parenting').show();
+			$('.podcast.parenting').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.time-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.time').show();
+			$('.podcast.time').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.temper-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.temper').show();
+			$('.podcast.temper').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.mindset-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.mindset').show();
+			$('.podcast.mindset').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.motivation-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.motivation').show();
+			$('.podcast.motivation').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.expectations-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.expectations').show();
+			$('.podcast.expectations').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.family-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.family').show();
+			$('.podcast.family').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.yourself-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.yourself').show();
+			$('.podcast.yourself').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.singing-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.singing').show();
+			$('.podcast.singing').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.marriage-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.marriage').show();
+			$('.podcast.marriage').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.adapt-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.adapt').show();
+			$('.podcast.adapt').fadeIn();
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});

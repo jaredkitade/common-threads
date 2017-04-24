@@ -105,7 +105,7 @@ h4 {
 	color: white;
 }
 .nav li {
-	font-family:'Brandon Text W01 Bold';
+	/*font-family:'Brandon Text W01 Bold';*/
 	display: inline-block;
 	letter-spacing: .6px;
 	margin-left: 20px;
@@ -122,62 +122,6 @@ h4 {
 }
 table {
 	border-collapse: collapse;
-}
-.sort {
-	float: left;
-	position: fixed;
-	width: 220px;
-	z-index: 1;
-	left: 980px;
-	top:120px;
-	font-size: 9pt;
-}
-.center {
-	text-align: center;
-}
-.sort th {
-	font-family:'Brandon Text W01 Bold';
-	letter-spacing: .5px;
-}
-.sort td, .sort th {
-	padding: 5px 10px;
-}
-.sort td {
-	cursor: pointer;
-	width: 110px;
-}
-.sort td:hover {
-	/*text-decoration: underline;*/
-	font-family:'Brandon Text W01 Bold';
-}
-.threads {
-	float: left;
-	position: fixed;
-	width: 220px;
-	z-index: 1;
-	left: 980px;
-	top:145px;
-	font-size: 9pt;
-}
-.center {
-	text-align: center;
-}
-.threads th {
-	font-family:'Brandon Text W01 Bold';
-	letter-spacing: .5px;
-}
-.threads td, .threads th {
-	padding: 5px 10px;
-}
-.threads td {
-	width: 110px;
-}
-.active {
-	background-color: rgb(105,135,150);
-	color: white;
-	text-decoration: underline;
-	font-family:'Brandon Text W01 Bold';
-	/*border:1px solid black;*/
 }
 /*------------------------------------------------------ HOME CONTENT */
 .content {
@@ -424,7 +368,80 @@ table {
 .last {
 	margin-right:0;
 }
-
+/*------------------------------------------------------ SORT/THREADS */
+.sort-container {
+	position: absolute;
+	width: 220px;
+	height: auto;
+	z-index: 1;
+	left: 740px;
+	top:10px;
+}
+.sort {
+	/*float: left;*/
+	position: fixed;
+	width: 220px;
+	z-index: 1;
+	/*left: 0;
+	top: 0px;*/
+	font-size: 9pt;
+}
+.center {
+	text-align: center;
+}
+.sort th {
+	font-family:'Brandon Text W01 Bold';
+	letter-spacing: .5px;
+}
+.sort td, .sort th {
+	padding: 5px 10px;
+}
+.sort td {
+	cursor: pointer;
+	width: 110px;
+}
+.sort td:hover {
+	/*text-decoration: underline;*/
+	font-family:'Brandon Text W01 Bold';
+}
+.threads-container {
+	position: absolute;
+	width: 220px;
+	height: auto;
+	z-index: 1;
+	left: 740px;
+	top:35px;
+}
+.threads {
+	float: left;
+	position: fixed;
+	width: 220px;
+	z-index: 1;
+	/*left: 980px;
+	top:145px;*/
+	font-size: 9pt;
+}
+.center {
+	text-align: center;
+}
+.threads th {
+	font-family:'Brandon Text W01 Bold';
+	letter-spacing: .5px;
+}
+.threads td, .threads th {
+	padding: 5px 10px;
+}
+.threads td {
+	width: 110px;
+}
+.active {
+	background-color: rgb(105,135,150);
+	color: white;
+	text-decoration: underline;
+	font-family:'Brandon Text W01 Bold';
+	/*border:1px solid black;*/
+}
+/
 
 
 

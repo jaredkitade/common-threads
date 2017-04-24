@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Justin: Fish & Family</title>
+	<title>Episode 1: Justin</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />
 	<script type="text/javascript" src="//fast.fonts.net/jsapi/9fed162e-fca2-4291-b51c-42d1c1f922e4.js"></script>
-	<!-- <link rel="shortcut icon" type="img/png" href="images/favicon.ico"> -->
+	<!-- <link rel="shortcut icon" typ	e="img/png" href="images/favicon.ico"> -->
 </head>
 <body>
 	<div class='page-head'>
 		<div class='head'>
-			<div class='page-title'><h1>Common Threads</h1></div>
+			<div class='page-title'><h2><a href='index.html'>Common Threads</a></h2></div>
 			<ul class='nav'>
 				<li><a href='index.html'>Episodes</a></li>
 				<li><a href='about.html'>About</a></li>
@@ -28,7 +28,7 @@
 			<!-- <p class='episode'>Episode 1</p> -->
 			<h1>Episode 1: Justin</h1>
 			<div class='player'>
-				<iframe width="100%" height="323" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317271295&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+				<iframe width="100%" height="323" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317271295&amp;auto_play=false&amp;show_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 			</div>
 			<div class='description'>
 				<h2>Fish & Family</h2>
@@ -91,7 +91,8 @@
 				</div>
 			</a>
 		</div>
-		<table class='threads'>
+		<div class='threads-container'>
+			<table class='threads'>
 			<tr>
 				<th colspan='2'>Topics</th>
 			</tr>
@@ -127,7 +128,12 @@
 				<td>Stereotypes</td>
 				<td>XX:XX</td>
 			</tr>
-		</table>
+			<tr>
+				<td>Time</td>
+				<td>XX:XX</td>
+			</tr>
+			</table>
+		</div>
 	</div>
 
 </body>
@@ -135,82 +141,77 @@
 	$(document).ready(function(){
 		
 		$('li.all-link').click(function(){
-			// $('.podcast').hide();
+			// $('.podcast').show();
 			$('.all').show();
 		});
 
 		$('li.stereotypes-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.stereotypes').show();
 		});
 
 		$('li.impulse-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.impulse').show();
 		});
 
 		$('li.real-friends-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.real-friends').show();
 		});
 
 		$('li.self-confidence-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.self-confidence').show();
 		});
 
 		$('li.regret-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.regret').show();
 		});
 
 		$('li.bubbles-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.bubbles').show();
 		});
 
 		$('li.overthinking-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.overthinking').show();
 		});
 
 		$('li.unfair-wrong-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.unfair-wrong').show();
 		});
 
 		$('li.appearance-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.outward-appearance').show();
 		});
 
 		$('li.anxiety-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.anxiety').show();
 		});
 
-		$('li.wingstop-link').click(function(){
-			$('.podcast').hide();
-			$('.podcast.wingstop').show();
-		});
-
 		$('li.parenting-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.parenting').show();
 		});
 
 		$('li.time-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.time').show();
 		});
 
 		$('li.temper-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.temper').show();
 		});
 
 		$('li.appreciation-link').click(function(){
-			$('.podcast').hide();
+			$('.podcast').show();
 			$('.podcast.appreciation').show();
 		});
 });
