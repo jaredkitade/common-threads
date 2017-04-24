@@ -9,6 +9,7 @@ body {
 	color: black;
 	line-height: 1.5em;
 	background-color: rgb(240,240,240);
+	height: auto;
 }
 p {
 	margin:0px;
@@ -74,7 +75,19 @@ h4 {
 	background-color: rgb(105,135,150);
 }
 .head {
-	width: 960px;
+	width: 440px;
+	margin: 0 auto;
+	position: fixed;
+	top:0;
+	left:50%;
+	transform:translate(-50%,0);
+	z-index: 99;
+	height:80px;
+	/*background-color: white;*/
+}
+.head-mobile {
+	width: 100%;
+	display: none;
 	margin: 0 auto;
 	position: fixed;
 	top:0;
@@ -404,6 +417,28 @@ table {
 	/*text-decoration: underline;*/
 	font-family:'Brandon Text W01 Bold';
 }
+.sort-mobile {
+	display: none;
+	position: fixed;
+	width: 120px;
+	z-index: 1;
+	font-size: 9pt;
+}
+.sort-mobile th {
+	font-family:'Brandon Text W01 Bold';
+	letter-spacing: .5px;
+}
+.sort-mobile td, .sort-mobile th {
+	padding: 5px 10px;
+}
+.sort-mobile td {
+	cursor: pointer;
+	width: 110px;
+}
+.sort-mobile td:hover {
+	/*text-decoration: underline;*/
+	font-family:'Brandon Text W01 Bold';
+}
 .threads-container {
 	position: absolute;
 	width: 220px;
@@ -440,8 +475,41 @@ table {
 	text-decoration: underline;
 	font-family:'Brandon Text W01 Bold';
 }
-
-
+#mobile-sort-button {
+    position: fixed;
+    background: white;
+    bottom: 0;
+    left: 0;
+   	width: 100%;
+    /*right: 0;*/
+    height: 40px;
+    z-index: 999;
+    display: none;
+    color: rgb(105,135,150);
+	font-size: 26px;
+    /*text-align: center;*/
+}
+#mobile-sort-button p {
+	width: 20px;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	left: 50%;
+	top: 50%;
+}
+#mobile-sort {
+	position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    height: 450px;
+    width: 100%;
+    background: rgba(105,135,150,.8);
+    display: none;
+    z-index: 100;
+    overflow: scroll;
+    cursor: pointer;
+    color: white;
+}
 
 @media only screen and (max-width: 980px) {
 	.head {
@@ -476,13 +544,45 @@ table {
 		width: 480px;
 	}
 	.content {
-		width: 480px;
+		width: 220px;
 	}
 	.home-podcasts {
 		width: 200px;
 	}
 	.sort-container {
 		left: 260px;
+	}
+	.sort {
+		display: none;
+	}
+	.sort-mobile {
+		display: block;
+	}
+	#mobile-sort-button {
+    	display: block;
+	}
+	.head {
+		display: none;
+	}
+	.head-mobile {
+		display: block;
+	}
+	.page-title {
+		float: none;
+		position: static;
+		margin: 0 auto;
+		width: 164px;
+		margin-top: 15px;
+	}
+	.nav {
+		width: 278px;
+		/*margin: 0 auto;*/
+		margin-top: 8px;
+		left: 50%;
+   		padding: 0;
+    	transform: translate(-50%,0);
+}
+
 	}
 }
 
