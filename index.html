@@ -729,7 +729,10 @@
 				</tr>
 			</table>
 		</div>
-		<div class='sort-container-mobile'>
+		
+	</div>
+	<div id='mobile-sort-button'><p>☰</p></div>
+	<div class='sort-container-mobile'>
 			<table id='mobile-sort'>
 				<tr>
 					<th colspan='2' class='center'>Sort By Topic</th>
@@ -783,8 +786,6 @@
 				</tr>
 			</table>
 		</div>
-	</div>
-	<div id='mobile-sort-button'><p>☰</p></div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
@@ -962,9 +963,9 @@
 			$('.all').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.stereotypes-link').click(function(){
@@ -972,9 +973,9 @@
 			$('.podcast.stereotypes').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.impulse-link').click(function(){
@@ -982,9 +983,9 @@
 			$('.podcast.impulse').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');	
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');	
 		});
 
 		$('td.real-friends-link').click(function(){
@@ -992,9 +993,9 @@
 			$('.podcast.real-friends').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.self-confidence-link').click(function(){
@@ -1002,9 +1003,9 @@
 			$('.podcast.self-confidence').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.regret-link').click(function(){
@@ -1012,9 +1013,9 @@
 			$('.podcast.regret').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.bubbles-link').click(function(){
@@ -1022,9 +1023,9 @@
 			$('.podcast.bubbles').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.overthinking-link').click(function(){
@@ -1032,9 +1033,9 @@
 			$('.podcast.overthinking').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.loss-link').click(function(){
@@ -1042,9 +1043,9 @@
 			$('.podcast.loss').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.appearance-link').click(function(){
@@ -1052,9 +1053,9 @@
 			$('.podcast.appearance').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.anxiety-link').click(function(){
@@ -1062,9 +1063,9 @@
 			$('.podcast.anxiety').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.balance-link').click(function(){
@@ -1072,9 +1073,9 @@
 			$('.podcast.balance').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.parenting-link').click(function(){
@@ -1082,9 +1083,9 @@
 			$('.podcast.parenting').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.time-link').click(function(){
@@ -1092,9 +1093,9 @@
 			$('.podcast.time').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.temper-link').click(function(){
@@ -1102,9 +1103,9 @@
 			$('.podcast.temper').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.mindset-link').click(function(){
@@ -1112,9 +1113,9 @@
 			$('.podcast.mindset').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.motivation-link').click(function(){
@@ -1122,9 +1123,9 @@
 			$('.podcast.motivation').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.expectations-link').click(function(){
@@ -1132,9 +1133,9 @@
 			$('.podcast.expectations').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.family-link').click(function(){
@@ -1142,9 +1143,9 @@
 			$('.podcast.family').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.yourself-link').click(function(){
@@ -1152,9 +1153,9 @@
 			$('.podcast.yourself').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.singing-link').click(function(){
@@ -1162,9 +1163,9 @@
 			$('.podcast.singing').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.marriage-link').click(function(){
@@ -1172,9 +1173,9 @@
 			$('.podcast.marriage').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
 		$('td.adapt-link').click(function(){
@@ -1182,14 +1183,14 @@
 			$('.podcast.adapt').fadeIn();
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 		$('#mobile-sort-button').click(function(){
-			$('.sort-container-mobile').toggle();
-			$('#mobile-sort').toggle();
-			$('.home-podcasts').toggle('.pointer');
+			$('.sort-container-mobile').fadeToggle();
+			$('#mobile-sort').fadeToggle();
+			$('.home-podcasts').fadeToggle('.pointer');
 		});
 	});
 

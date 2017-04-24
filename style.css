@@ -14,6 +14,9 @@ body {
 .pointer {
 	pointer-events:none;
 }
+.hide {
+	display: none;
+}
 p {
 	margin:0px;
 }
@@ -459,11 +462,17 @@ table {
 }
 .sort-container-mobile {
 	position: absolute;
-	width: 220px;
-	height: auto;
+	/*width: 220px;
+	height: auto;*/
+	width: 100%;
+	height: 100%;
 	z-index: 1;
-	left: 260px;
-	top:10px;
+	/*left: 260px;
+	top:10px;*/
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	background-color: white;
 	display: none;
 }
 #mobile-sort-button {
@@ -490,17 +499,21 @@ table {
 #mobile-sort {
 	display: none;
 	position: fixed;
+   /* left: 50%;
+    transform:translate(-50%,0);*/
     left: 50%;
-    transform:translate(-50%,0);
-    bottom: 40px;
+	top: 50%;
+	transform:translate(-50%,-50%);
+    /*bottom: 40px;*/
     height: 450px;
-    width: 240px;
+    /*width: 240px;*/
     background: white;
 	z-index: 999;
     overflow: scroll;
     cursor: pointer;
     color: black;
     font-size: 9pt;
+
 }
 #mobile-sort th {
 	font-family:'Brandon Text W01 Bold';
