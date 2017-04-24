@@ -81,7 +81,7 @@ h4 {
 	background-color: rgb(105,135,150);
 }
 .head {
-	width: 440px;
+	width: 960px;
 	margin: 0 auto;
 	position: fixed;
 	top:0;
@@ -567,6 +567,9 @@ table {
 	}
 }
 @media only screen and (max-width: 375px) {
+	h1 {
+		text-align: center;
+	}
 	.head {
 		width: 480px;
 	}
