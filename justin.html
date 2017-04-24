@@ -205,10 +205,61 @@
 			</tr>
 			</table>
 		</div>
+		<div id='mobile-sort-button'><p>☰</p></div>
+		<div class='threads-container-mobile'>
+			<table class='mobile-threads'>
+				<tr>
+					<th colspan='2'>Topics</th>
+				</tr>
+				<tr>
+					<td>Adapting</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Appearance</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Balance</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Bubbles</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Family</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Impulse</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Mindset</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Stereotypes</td>
+					<td>XX:XX</td>
+				</tr>
+				<tr>
+					<td>Time</td>
+					<td>XX:XX</td>
+				</tr>
+			</table>
+		</div>
 	</div>
 
 </body>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$('#mobile-sort-button').click(function(){
+			$('.threads-container-mobile').fadeToggle();
+			$('.mobile-threads').fadeToggle();
+			$('.podcast-episode').fadeToggle('.pointer');
+		});
+	</script>
 </html>
 
 
