@@ -545,9 +545,6 @@ table {
 .threads-container-mobile, .mobile-threads{
 	display: none;
 }
-.mobile-threads {
-	width: 210px;
-}
 
 @media only screen and (max-width: 980px) {
 	.head {
