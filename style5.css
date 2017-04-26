@@ -187,7 +187,7 @@ table {
 	position: absolute;
 	top: 0;
 	left: 0;
-	border:1px solid black;
+	border:1px solid rgb(105,135,150);
 	z-index: 2;
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
@@ -195,7 +195,9 @@ table {
 }
 .pod-overlay img {
 	max-height: 218px;
-	max-width: 218px
+	max-width: 218px;
+	opacity: .2;
+	z-index: 2;
 }
 .background {
 	background-color: rgb(105,135,150);
@@ -207,18 +209,24 @@ table {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	border:1px solid black;
+	border:1px solid rgb(105,135,150);
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
 .podcast:hover .pod-overlay{
-	opacity: .2;
+	opacity: 1;
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
 .podcast:hover .background {
+	opacity: 1;
+	-webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+}
+.podcast:hover .podcast-description {
 	opacity: 1;
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
@@ -235,19 +243,23 @@ table {
 	color: rgb(105,135,150);
 	text-align: center;
 }
-.podcast-head p {
+.podcast-head .episode {
+	width: 220px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform:translate(-50%,-50%);
 }
 .podcast-description {
-	height: 150px;
-	width: 220px;
-	top: 70px;
-	left: 0;
+	/*height: 150px;*/
+	/*height: 220px;*/
+	width: 200px;
+	/*top: 70px;*/
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
 	position: absolute;
-	border:1px solid black;
+	/*border:1px solid rgb(105,135,150);*/
 	border-top: none;
 	padding: 10px 15px;
 	/*background-color: white;*/
@@ -257,6 +269,8 @@ table {
 	/*background-image: url('images/justin.jpg');
 	background-position: top center;
 	opacity: .2;*/
+	opacity: 0;
+	color: white;
 }
 .header {
 	/*display: table-cell;
@@ -359,7 +373,7 @@ table {
 .related {
 	height: 137px;
 	width: 137px;
-	border: 1px solid black;
+	border:1px solid rgb(105,135,150);
 	float: left;
 	margin: 0px 50px 25px 0px;
 	position: relative;
