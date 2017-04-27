@@ -17,6 +17,9 @@ body {
 .hide {
 	display: none;
 }
+ul {
+	list-style: none;
+}
 p {
 	margin:0px;
 }
@@ -396,13 +399,13 @@ table {
 	position: absolute;
 	/*top: 1px;
 	left: 1px;*/
-	background-color: rgb(105,135,150);
 	color: white;
+	background-color: rgb(105,135,150);
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
-.overlay p {
+.related p, .overlay ul {
 	/*font-family:'Brandon Text W01 Bold';*/
 	position: absolute;
 	left: 50%;
@@ -415,6 +418,12 @@ table {
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
+}
+.overlay ul {
+	/*text-align: left;*/
+	padding: 0;
+	margin: 0;	
+	top:50%;
 }
 .related:hover .overlay {
 	opacity: 1;
