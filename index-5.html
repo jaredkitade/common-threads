@@ -793,62 +793,62 @@
 			</a>
 		</div>
 		<div class='sort-container'>
-		<div class='sort'>
-			<h1>Sort By Topic</h1>
-			<table class='sort'>
-				<!-- <tr>
-					<th colspan='2' class='center'>Sort By Topic</th>
-				</tr> -->
-				<tr>
-					<td colspan='2' class="all-link active center">View All</th>
+			<div class='sort'>
+				<h1>Sort By Topic</h1>
+				<table class='sort'>
+					<!-- <tr>
+						<th colspan='2' class='center'>Sort By Topic</th>
+					</tr> -->
+					<tr>
+						<td colspan='2' class="all-link active center">View All</th>
+					</tr>
+					<tr>
+					<td class='adapt-link'>Adapting</td>
+					<td class='anxiety-link'>Anxiety</td>
 				</tr>
 				<tr>
-				<td class='adapt-link'>Adapting</td>
-				<td class='anxiety-link'>Anxiety</td>
-			</tr>
-			<tr>
-				<td class='appearance-link'>Appearance</td>
-				<td class='appreciation-link'>Appreciation</td>
-			</tr>
-			<tr>
-				<td class='balance-link'>Balance</td>
-				<td class='yourself-link'>Being Yourself</td>
-			</tr>
-			<tr>
-				<td class='expectations-link'>Expectations</td>
-				<td class='impulse-link'>Impulse</td>
-			</tr>
-			<tr>
-				<td class='loss-link'>Loss</td>
-				<td class='marriage-link'>Marriage</td>
-			</tr>
-			<tr>
-				<td class='mindset-link'>Mindset</td>
-				<td class='motivation-link'>Motivation</td>
-			</tr>
-			<tr>
-				<td class='overthinking-link'>Overthinking</td>
-				<td class='parenting-link'>Parenting</td>
-			</tr>
-			<tr>
-				<td class='real-friends-link'>Real Friends</td>
-				<td class='regret-link'>Regret</td>
-			</tr>
-			<tr>
-				<td class='self-confidence-link'>Self Confidence</td>
-				<td class='singing-link'>Singing</td>
-			</tr>
-			<tr>
-				<td class='bubbles-link'>Societal Bubbles</td>
-				<td class="stereotypes-link">Stereotypes</td>
-			</tr>
-			<tr>
-				<td class='temper-link'>Temper</td>
-				<td class='time-link'>Time</td>
-			</tr>
-			</table>
+					<td class='appearance-link'>Appearance</td>
+					<td class='appreciation-link'>Appreciation</td>
+				</tr>
+				<tr>
+					<td class='balance-link'>Balance</td>
+					<td class='yourself-link'>Being Yourself</td>
+				</tr>
+				<tr>
+					<td class='expectations-link'>Expectations</td>
+					<td class='impulse-link'>Impulse</td>
+				</tr>
+				<tr>
+					<td class='loss-link'>Loss</td>
+					<td class='marriage-link'>Marriage</td>
+				</tr>
+				<tr>
+					<td class='mindset-link'>Mindset</td>
+					<td class='motivation-link'>Motivation</td>
+				</tr>
+				<tr>
+					<td class='overthinking-link'>Overthinking</td>
+					<td class='parenting-link'>Parenting</td>
+				</tr>
+				<tr>
+					<td class='real-friends-link'>Real Friends</td>
+					<td class='regret-link'>Regret</td>
+				</tr>
+				<tr>
+					<td class='self-confidence-link'>Self Confidence</td>
+					<td class='singing-link'>Singing</td>
+				</tr>
+				<tr>
+					<td class='bubbles-link'>Societal Bubbles</td>
+					<td class="stereotypes-link">Stereotypes</td>
+				</tr>
+				<tr>
+					<td class='temper-link'>Temper</td>
+					<td class='time-link'>Time</td>
+				</tr>
+				</table>
+			</div>
 		</div>
-	</div>
 	</div>
 	<div id='mobile-sort-button'><p>☰</p></div>
 	<div class='sort-container-mobile'>
@@ -928,161 +928,161 @@
 
 		$('td.all-link').click(function(){
 			// $('.podcast').hide();
-			$('.all').fadeIn();
+			$('.all').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.stereotypes-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.stereotypes').fadeIn();
+			$('.podcast.stereotypes').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.impulse-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.impulse').fadeIn();
+			$('.podcast.impulse').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');	
 		});
 
 		$('td.real-friends-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.real-friends').fadeIn();
+			$('.podcast.real-friends').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.self-confidence-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.self-confidence').fadeIn();
+			$('.podcast.self-confidence').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.regret-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.regret').fadeIn();
+			$('.podcast.regret').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.bubbles-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.bubbles').fadeIn();
+			$('.podcast.bubbles').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.overthinking-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.overthinking').fadeIn();
+			$('.podcast.overthinking').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.loss-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.loss').fadeIn();
+			$('.podcast.loss').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.appearance-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.appearance').fadeIn();
+			$('.podcast.appearance').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.anxiety-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.anxiety').fadeIn();
+			$('.podcast.anxiety').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.balance-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.balance').fadeIn();
+			$('.podcast.balance').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.parenting-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.parenting').fadeIn();
+			$('.podcast.parenting').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.time-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.time').fadeIn();
+			$('.podcast.time').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.temper-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.temper').fadeIn();
+			$('.podcast.temper').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.mindset-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.mindset').fadeIn();
+			$('.podcast.mindset').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.motivation-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.motivation').fadeIn();
+			$('.podcast.motivation').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.expectations-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.expectations').fadeIn();
+			$('.podcast.expectations').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.appreciation-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.appreciation').fadeIn();
+			$('.podcast.appreciation').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.yourself-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.yourself').fadeIn();
+			$('.podcast.yourself').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.singing-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.singing').fadeIn();
+			$('.podcast.singing').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.marriage-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.marriage').fadeIn();
+			$('.podcast.marriage').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
 
 		$('td.adapt-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.adapt').fadeIn();
+			$('.podcast.adapt').fadeIn('fast');
 			$('.sort td').removeClass('active');
 			$(this).toggleClass('active');
 		});
@@ -1095,7 +1095,7 @@
 
 				$('#mobile-sort td.all-link').click(function(){
 			// $('.podcast').hide();
-			$('.all').fadeIn();
+			$('.all').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1105,7 +1105,7 @@
 
 		$('#mobile-sort td.stereotypes-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.stereotypes').fadeIn();
+			$('.podcast.stereotypes').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1115,7 +1115,7 @@
 
 		$('#mobile-sort td.impulse-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.impulse').fadeIn();
+			$('.podcast.impulse').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1125,7 +1125,7 @@
 
 		$('#mobile-sort td.real-friends-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.real-friends').fadeIn();
+			$('.podcast.real-friends').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1135,7 +1135,7 @@
 
 		$('#mobile-sort td.self-confidence-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.self-confidence').fadeIn();
+			$('.podcast.self-confidence').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1145,7 +1145,7 @@
 
 		$('#mobile-sort td.regret-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.regret').fadeIn();
+			$('.podcast.regret').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1155,7 +1155,7 @@
 
 		$('#mobile-sort td.bubbles-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.bubbles').fadeIn();
+			$('.podcast.bubbles').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1165,7 +1165,7 @@
 
 		$('#mobile-sort td.overthinking-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.overthinking').fadeIn();
+			$('.podcast.overthinking').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1175,7 +1175,7 @@
 
 		$('#mobile-sort td.loss-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.loss').fadeIn();
+			$('.podcast.loss').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1185,7 +1185,7 @@
 
 		$('#mobile-sort td.appearance-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.appearance').fadeIn();
+			$('.podcast.appearance').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1195,7 +1195,7 @@
 
 		$('#mobile-sort td.anxiety-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.anxiety').fadeIn();
+			$('.podcast.anxiety').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1205,7 +1205,7 @@
 
 		$('#mobile-sort td.balance-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.balance').fadeIn();
+			$('.podcast.balance').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1215,7 +1215,7 @@
 
 		$('#mobile-sort td.parenting-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.parenting').fadeIn();
+			$('.podcast.parenting').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1225,7 +1225,7 @@
 
 		$('#mobile-sort td.time-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.time').fadeIn();
+			$('.podcast.time').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1235,7 +1235,7 @@
 
 		$('#mobile-sort td.temper-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.temper').fadeIn();
+			$('.podcast.temper').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1245,7 +1245,7 @@
 
 		$('#mobile-sort td.mindset-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.mindset').fadeIn();
+			$('.podcast.mindset').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1255,7 +1255,7 @@
 
 		$('#mobile-sort td.motivation-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.motivation').fadeIn();
+			$('.podcast.motivation').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1265,7 +1265,7 @@
 
 		$('#mobile-sort td.expectations-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.expectations').fadeIn();
+			$('.podcast.expectations').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1275,7 +1275,7 @@
 
 		$('#mobile-sort td.appreciation-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.appreciation').fadeIn();
+			$('.podcast.appreciation').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1285,7 +1285,7 @@
 
 		$('#mobile-sort td.yourself-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.yourself').fadeIn();
+			$('.podcast.yourself').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1295,7 +1295,7 @@
 
 		$('#mobile-sort td.singing-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.singing').fadeIn();
+			$('.podcast.singing').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1305,7 +1305,7 @@
 
 		$('#mobile-sort td.marriage-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.marriage').fadeIn();
+			$('.podcast.marriage').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
@@ -1315,7 +1315,7 @@
 
 		$('#mobile-sort td.adapt-link').click(function(){
 			$('.podcast').hide();
-			$('.podcast.adapt').fadeIn();
+			$('.podcast.adapt').fadeIn('fast');
 			$('#mobile-sort td').removeClass('active');
 			$(this).toggleClass('active');
 			$('.sort-container-mobile').fadeToggle();
