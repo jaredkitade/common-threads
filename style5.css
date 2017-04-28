@@ -74,6 +74,21 @@ h4 {
 .clear {
 	clear: both;
 }
+/*------------------------------------------------------ ABOUT */
+.about-container {
+	width: 100%;
+	position: relative;
+}
+.about {
+	width: 960px;
+	height: 500px;
+	background: rgb(105,135,150);
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
 /*------------------------------------------------------ HEAD */
 .page-head {
 	width: 100%;
@@ -437,7 +452,7 @@ table {
 	padding: 0;
 }
 .overlay img {
-	opacity: .2;
+	opacity: .1;
 }
 .related:hover .overlay {
 	opacity: 1;
