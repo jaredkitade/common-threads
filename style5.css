@@ -498,7 +498,7 @@ table {
 	width: 110px;
 	font-size: 11pt;
 }
-.overlay ul {
+.overlay ul, .overlay table {
 	/*font-family:'Brandon Text W01 Bold';*/
 	position: absolute;
 	left: 50%;
@@ -514,6 +514,9 @@ table {
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
+}
+.overlay table {
+	width: 170px;
 }
 .overlay li {
 	margin: 0;
