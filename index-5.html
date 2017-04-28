@@ -793,62 +793,62 @@
 		</div>
 	</div>
 	<div class='sort-container'>
-			<div class='sort'>
-				<h1>Sort By Topic</h1>
-				<table class='sort'>
-					<!-- <tr>
-						<th colspan='2' class='center'>Sort By Topic</th>
-					</tr> -->
-					<tr>
-						<td colspan='2' class="all-link active center">View All</th>
-					</tr>
-					<tr>
-					<td class='adapt-link'>Adapting</td>
-					<td class='anxiety-link'>Anxiety</td>
+		<div class='sort'>
+			<h1>Sort By Topic</h1>
+			<table class='sort'>
+				<!-- <tr>
+					<th colspan='2' class='center'>Sort By Topic</th>
+				</tr> -->
+				<tr>
+					<td colspan='2' class="all-link active center">View All</th>
 				</tr>
 				<tr>
-					<td class='appearance-link'>Appearance</td>
-					<td class='appreciation-link'>Appreciation</td>
-				</tr>
-				<tr>
-					<td class='balance-link'>Balance</td>
-					<td class='yourself-link'>Being Yourself</td>
-				</tr>
-				<tr>
-					<td class='expectations-link'>Expectations</td>
-					<td class='impulse-link'>Impulse</td>
-				</tr>
-				<tr>
-					<td class='loss-link'>Loss</td>
-					<td class='marriage-link'>Marriage</td>
-				</tr>
-				<tr>
-					<td class='mindset-link'>Mindset</td>
-					<td class='motivation-link'>Motivation</td>
-				</tr>
-				<tr>
-					<td class='overthinking-link'>Overthinking</td>
-					<td class='parenting-link'>Parenting</td>
-				</tr>
-				<tr>
-					<td class='real-friends-link'>Real Friends</td>
-					<td class='regret-link'>Regret</td>
-				</tr>
-				<tr>
-					<td class='self-confidence-link'>Self Confidence</td>
-					<td class='singing-link'>Singing</td>
-				</tr>
-				<tr>
-					<td class='bubbles-link'>Societal Bubbles</td>
-					<td class="stereotypes-link">Stereotypes</td>
-				</tr>
-				<tr>
-					<td class='temper-link'>Temper</td>
-					<td class='time-link'>Time</td>
-				</tr>
-				</table>
-			</sort>
+				<td class='adapt-link'>Adapting</td>
+				<td class='anxiety-link'>Anxiety</td>
+			</tr>
+			<tr>
+				<td class='appearance-link'>Appearance</td>
+				<td class='appreciation-link'>Appreciation</td>
+			</tr>
+			<tr>
+				<td class='balance-link'>Balance</td>
+				<td class='yourself-link'>Being Yourself</td>
+			</tr>
+			<tr>
+				<td class='expectations-link'>Expectations</td>
+				<td class='impulse-link'>Impulse</td>
+			</tr>
+			<tr>
+				<td class='loss-link'>Loss</td>
+				<td class='marriage-link'>Marriage</td>
+			</tr>
+			<tr>
+				<td class='mindset-link'>Mindset</td>
+				<td class='motivation-link'>Motivation</td>
+			</tr>
+			<tr>
+				<td class='overthinking-link'>Overthinking</td>
+				<td class='parenting-link'>Parenting</td>
+			</tr>
+			<tr>
+				<td class='real-friends-link'>Real Friends</td>
+				<td class='regret-link'>Regret</td>
+			</tr>
+			<tr>
+				<td class='self-confidence-link'>Self Confidence</td>
+				<td class='singing-link'>Singing</td>
+			</tr>
+			<tr>
+				<td class='bubbles-link'>Societal Bubbles</td>
+				<td class="stereotypes-link">Stereotypes</td>
+			</tr>
+			<tr>
+				<td class='temper-link'>Temper</td>
+				<td class='time-link'>Time</td>
+			</tr>
+			</table>
 		</div>
+	</div>
 	<div id='mobile-sort-button'><p>☰</p></div>
 	<div class='sort-container-mobile'>
 			<table id='mobile-sort'>
@@ -904,6 +904,9 @@
 				</tr>
 			</table>
 		</div>
+		<!-- <div class='footer-container'>
+			<div class='footer'></div>
+		</div> -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
@@ -912,7 +915,15 @@
 		$(document).scroll(function(){
 		     $('.page-head').toggleClass('fixed', $(this).scrollTop() > 800);
 		 });
-
+		$(window).scroll(function(){
+			if($(window).scrollTop() > 800){
+			   $('.sort-container').fadeIn('fast');
+			}
+			if($(window).scrollTop() < 800){
+			   $('.sort-container').fadeOut('fast');
+			}
+			
+		});
 
 		$('td.all-link').click(function(){
 			// $('.podcast').hide();
