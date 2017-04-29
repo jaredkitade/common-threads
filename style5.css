@@ -121,8 +121,8 @@ h4 {
 	margin: 0 auto;
 	z-index: 99;
 	height:60px; 
-	border-bottom:1px solid rgb(105,135,150);
-	background-color: white;
+	border-bottom:1px solid rgba(105,135,150,.5);
+	background-color: rgb(240,240,240);
 	position: fixed;
 	top:0;
 	left: 50%;
@@ -251,7 +251,7 @@ table {
 	position: absolute;
 	top: 0;
 	left: 0;
-	border:1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150,.5);
 	z-index: 2;
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
@@ -273,7 +273,7 @@ table {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	border:1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150,.5);
 	-webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
@@ -303,7 +303,7 @@ table {
 	padding: 10px 15px;
 	top: 0;
 	left: 0;
-	border:1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150,.5);
 	color: rgb(105,135,150);
 	text-align: center;
 }
@@ -323,7 +323,7 @@ table {
 	left: 50%;
 	transform:translate(-50%,-50%);
 	position: absolute;
-	/*border:1px solid rgb(105,135,150);*/
+	/*border: 1px solid rgba(105,135,150,.5);*/
 	border-top: none;
 	padding: 10px 15px;
 	/*background-color: white;*/
@@ -395,7 +395,7 @@ table {
 	width: 325px;
 	height: 325px;
 	margin: 20px 50px 0 0;
-	border:1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150,.5);
 	float: left;
 }
 .description {
@@ -438,7 +438,7 @@ table {
 .related {
 	height: 200px;
 	width: 200px;
-	border:1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150,.5);
 	float: left;
 	margin: 0px 50px 25px 0px;
 	position: relative;
@@ -449,7 +449,7 @@ table {
 .related-container-mobile .related {
 	height: 160px;
 	width: 160px;
-	border:1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150,.5);
 	float: left;
 	margin: 0px 20px 25px 0px;
 	position: relative;
@@ -564,7 +564,7 @@ table {
 	max-height: 450px;*/
 }
 .sort table {
-	border: 1px solid rgb(105,135,150);
+	border: 1px solid rgba(105,135,150);
 }
 .center {
 	text-align: center;
@@ -866,7 +866,7 @@ table {
 		margin-top: 30px;
 		height: 250px;
 		width: 325px;
-		border-bottom: 1px solid black;
+		border-bottom: 1px solid rgba(105,135,150.5);
 	}
 	.next {
 		left: 50%;
