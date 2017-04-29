@@ -131,7 +131,7 @@ h4 {
 }
 .absolute {
 	position: absolute;
-	top: 800px;
+	top: 784px;
 	left: 50%;
 	transform:translate(-50%,0);
 }
