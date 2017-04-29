@@ -923,7 +923,12 @@
 			if($(window).scrollTop() < 650){
 			   $('.sort-container').fadeOut('fast');
 			}
-			
+			if($(window).scrollTop() > 784){
+				$('.about-container').css('background-color','rgb(240,240,240)')
+			}
+			if($(window).scrollTop() < 784){
+				$('.about-container').css('background-color','rgb(105,135,150)')
+			}
 		});
 
 		$('td.all-link').click(function(){

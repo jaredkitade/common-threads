@@ -74,6 +74,46 @@ h4 {
 .clear {
 	clear: both;
 }
+/*.teaser {
+	width: inherit;
+	/*width: auto;*/
+	/*max-width: 220px;*/
+	/*width: 220px;*/
+	/*border-color: rgba(105,135,150,.5);
+}*/
+#teaser-player {
+	display: none;
+}
+.teaser audio {
+	max-width: 220px;
+	width: inherit;
+}
+.button {
+	display: inline-block;
+	margin-right: 10px;
+}
+#play {
+	display: inline-block;
+	/*background-color: rgb(105,135,150);*/
+	/*width: 0;
+	height: 0;*/
+	border-top: 7.5px solid transparent;
+	border-left: 15px solid rgba(105,135,150,0);
+	border-bottom: 7.5px solid transparent;
+	/*border-outline: 1px solid rgba(105,135,150,.5);*/
+	-webkit-transition:.1s ease-out;
+	-moz-transition:.1s ease-out;
+	transition:.1s ease-out;
+}
+#pause {
+	display: inline-block;
+}
+#up {
+	display: inline-block;
+}
+#down {
+	display: inline-block;
+}
 /*------------------------------------------------------ ABOUT */
 .about-container {
 	width: 100%;
