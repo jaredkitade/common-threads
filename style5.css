@@ -300,7 +300,7 @@ h4 {
 	left:50%;
 	transform:translate(-50%,0);
 	z-index: 99;
-	height:80px;
+	height:60px;
 	/*background-color: white;*/
 }
 .page-title {
@@ -587,10 +587,11 @@ table {
 }
 .related-container-mobile {
 	display: none;
+	width: 360px;
 }
 .related-container-mobile .related {
-	height: 160px;
-	width: 160px;
+	height: 170px;
+	width: 170px;
 	border: 1px solid rgba(105,135,150,.5);
 	float: left;
 	margin: 0px 20px 25px 0px;
@@ -616,13 +617,13 @@ table {
 }
 }
 .related-container-mobile .related img {
-	max-height: 158px;
+	max-height: 168px;
 	max-width: 158px;
 }
 .related-container-mobile .overlay {
 	opacity: 0;
-	height: 158px;
-	width: 158px;
+	height: 168px;
+	width: 168px;
 	position: absolute;
 	/*top: 1px;
 	left: 1px;*/
@@ -675,8 +676,8 @@ table {
     -moz-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
-.last {
-	margin-right:0;
+.related-container .last, .related-container-mobile .last, .last {
+	margin-right: 0px;
 }
 /*------------------------------------------------------ SORT/THREADS */
 .sort-container {
@@ -777,7 +778,8 @@ table {
 }
 #mobile-sort-button, #mobile-topic-button {
     position: fixed;
-    background: white;
+    background-color: rgb(240,240,240);
+    border:1px solid rgba(105,135,150,.5);
     bottom: 0;
     left: 0;
    	width: 100%;
@@ -807,7 +809,7 @@ table {
     /*bottom: 40px;*/
     height: 450px;
     /*width: 240px;*/
-    background: white;
+    background-color: rgb(240,240,240);
 	z-index: 999;
     overflow: scroll;
     cursor: pointer;
@@ -905,6 +907,15 @@ table {
 	}
 	.related-container-mobile {
 		display: block;
+		width: 480px;
+	}
+	.related-container-mobile .related {
+		height: 230px;
+		width: 230px;
+		border: 1px solid rgba(105,135,150,.5);
+		float: left;
+		margin: 0px 20px 25px 0px;
+		position: relative;
 	}
 	.threads-container {
 		left: 500px;
@@ -917,6 +928,9 @@ table {
 	}
 	#timeline {
 		width: 80%;
+	}
+	.related-container .last, .related-container-mobile .last, .last {
+		margin-right: 0px;
 	}
 }
 @media only screen and (max-width: 720px) {
@@ -963,11 +977,15 @@ table {
 		display: none;
 	}
 	.content {
-		width: 220px;
+		width: 360px;
 		margin-top: 100px;
 	}
+	.podcast {
+		width: 360px;
+		height: 360px;
+	}
 	.home-podcasts {
-		width: 200px;
+		width: 360px;
 	}
 	.sort-container {
 		display: none;
@@ -983,7 +1001,7 @@ table {
 		position: static;
 		margin: 0 auto;
 		width: 164px;
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 	.nav {
 		width: 258px;
@@ -994,27 +1012,34 @@ table {
     	transform: translate(-50%,0);
 	}
 	.podcast-episode {
-		width: 325px;
+		width: 360px;
 		position: absolute;
 		transform: translate(-50%,0);
 		left: 50%;
 		float: none;
 		margin-bottom: 55px;
 	}
+	.podcast-head {
+		width: 360px;
+		height: 360px;
+	}
 	.player {
 		float: none;
 		margin-top: 30px;
-		width: 325px;
-		height: 325px;
+		width: 360px;
+		height: 360px;
 	}
 	.player iframe {
-		height: 323px;
+		height: 358px;
+	}
+	.title {
+		text-align: center;	
 	}
 	.description {
 		float: none;
 		margin-top: 30px;
 		height: 250px;
-		width: 325px;
+		width: 360px;
 		border-bottom: 1px solid rgba(105,135,150.5);
 	}
 	.next {
@@ -1024,7 +1049,7 @@ table {
 	}
 	.related {
 		/*height: 180px;*/
-		height: 150px;
+		height: 170px;
 		width: 150px;
 		margin-right: 25px;
 		margin-bottom: 25px;
@@ -1043,9 +1068,6 @@ table {
 	.size {
 		font-size: 11pt;
 	}
-	.last {
-		margin-right: 0;
-	}
 	.threads-container {
 		display: none;
 	}
@@ -1054,6 +1076,13 @@ table {
 	}
 	#timeline {
 		width: 70%;
+	}
+	.related-container-mobile {
+		width: 360px;
+	}
+	.related-container-mobile .related {
+		height: 170px;
+		width: 170px;
 	}
 }
 
@@ -1139,9 +1168,6 @@ table {
 	}
 	.size {
 		font-size: 11pt;
-	}
-	.last {
-		margin-right: 0;
 	}
 	.player iframe {
 		height: 298px;
