@@ -69,10 +69,16 @@ h3 {
 }
 h4 {
 	margin: 0;
+	/*margin-right: 25px;*/
+	margin-left: 10px;
+	position: relative;
 	font-family:'Brandon Text W01 Light';
-	display: inline-block;
+	/*display: inline-block;*/
+	float: left;
 	font-weight: normal;
 	color: rgb(105,135,150);
+	top:55%;
+	transform:translate(0,-50%);
 }
 .clear {
 	clear: both;
@@ -130,6 +136,11 @@ h4 {
 	background: rgb(105,135,150);
 }*/
 /* Absolute Center */
+.preview {
+	float: left;
+	width: 220px;
+	width: 325px;
+}
 /*Container for audio player*/
 #audioplayer{
 	width: inherit;
@@ -159,7 +170,7 @@ h4 {
 }
 
 #timeline{
-	width: 87%;
+	width: 69%;
 	height: 10px;
 	/*background: rgba(105,135,150,.5);*/
 	border: 1px solid rgba(105,135,150,.5);
@@ -176,7 +187,7 @@ h4 {
 	margin-top: -1px;
 	margin-left: -1px;
 	background-color: rgb(240,240,240);
-	/*background: rgb(105,135,150);*/
+	background: rgb(105,135,150);
 	border: 1px solid rgba(105,135,150,.5);
 }
 
@@ -500,6 +511,9 @@ table {
 }
 .p-top {
 	margin:10px 0px 0px 0px;
+}
+.p-top2 {
+	margin-top: 25px;
 }
 .quote {
 	font-family: 'Brandon Text W01 Light';
