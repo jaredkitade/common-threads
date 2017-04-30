@@ -152,16 +152,17 @@ h4 {
 }
 /*Classes for play/pause button background*/
 .play {
-	background: url('images/play.png');
+	background: url('images/play2.png');
 }
 .pause {
-	background: url('images/pause.png');
+	background: url('images/pause2.png');
 }
 
 #timeline{
 	width: 87%;
 	height: 10px;
-	background: rgba(105,135,150,.5);
+	/*background: rgba(105,135,150,.5);*/
+	border: 1px solid rgba(105,135,150,.5);
 	margin-top: 10px;
 	float: left;
 	border-radius: 15px;
@@ -169,11 +170,14 @@ h4 {
 /*Grabable Playhead*/
 #playhead{
 	cursor: pointer;
-	width: 9px;
-	height: 9px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
-	margin-top: 1px;
-	background: rgb(105,135,150);
+	margin-top: -1px;
+	margin-left: -1px;
+	background-color: rgb(240,240,240);
+	/*background: rgb(105,135,150);*/
+	border: 1px solid rgba(105,135,150,.5);
 }
 
 .teaser-active {
