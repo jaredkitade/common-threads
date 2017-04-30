@@ -10,18 +10,48 @@
 </head>
 <body>
 	<div class='teaser'>
-		<audio id='teaser-player' controls preload='metadata'>
+		<audio id='teaser-player' preload='metadata'>
 			<source src='audio/justin.mp3' type='audio/mpeg'>
 		</audio>
-		<div> 
-			<div id='play' onclick="document.getElementById('teaser-player').play()"></div> 
-			<div id='pause' onclick="document.getElementById('teaser-player').pause()"></div> 
-			<div id='up' onclick="document.getElementById('teaser-player').volume += 0.1"></div> 
-			<div id='down' <button onclick="document.getElementById('teaser-player').volume -= 0.1"></div> 
+		<div id='pbutton 'class='play' onclick="document.getElementById('teaser-player').play()">
+		</div>  
+		<progress min="0" max="100" value="0"></progress>
+		<div id='pbutton' class='pause' onclick="document.getElementById('teaser-player').pause()">
+			<div class='pause-left'></div>
+			<div class='pause-right'></div>
 		</div>
+		
 	</div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.play').click(function(){
+			$('.pause').removeClass('teaser-active');
+			$(this).addClass('teaser-active');
+		});
+		$('.pause').click(function(){
+			$('.play').removeClass('teaser-active');
+			$(this).addClass('teaser-active');
+		});
+
+	});
+	function play() {
+	    // start episode
+	    if (episode.paused) {
+	        episode.play();
+	        // remove play, add pause
+	        pButton.className = "";
+	        pButton.className = "pause";
+	    } else { // pause episode
+	        episode.pause();
+	        // remove pause, add play
+	        pButton.className = "";
+	        pButton.className = "play";
+	    }
+	}
+</script>
 </html>
 
 

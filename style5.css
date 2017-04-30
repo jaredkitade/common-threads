@@ -69,7 +69,10 @@ h3 {
 }
 h4 {
 	margin: 0;
-	font-family:'Brandon Text W01 Bold';
+	font-family:'Brandon Text W01 Light';
+	display: inline-block;
+	font-weight: normal;
+	color: rgb(105,135,150);
 }
 .clear {
 	clear: both;
@@ -82,7 +85,7 @@ h4 {
 	/*border-color: rgba(105,135,150,.5);
 }*/
 #teaser-player {
-	display: none;
+	/*display: none;*/
 }
 .teaser audio {
 	max-width: 220px;
@@ -92,27 +95,105 @@ h4 {
 	display: inline-block;
 	margin-right: 10px;
 }
-#play {
+/*.play {
 	display: inline-block;
-	/*background-color: rgb(105,135,150);*/
-	/*width: 0;
-	height: 0;*/
-	border-top: 7.5px solid transparent;
-	border-left: 15px solid rgba(105,135,150,0);
-	border-bottom: 7.5px solid transparent;
-	/*border-outline: 1px solid rgba(105,135,150,.5);*/
+	border-top: 8.5px solid transparent;
+	border-left: 15px solid rgb(105,135,150);
+	border-bottom: 8.5px solid transparent;
+	position: relative;
+	opacity: .5;
 	-webkit-transition:.1s ease-out;
 	-moz-transition:.1s ease-out;
 	transition:.1s ease-out;
 }
-#pause {
+.pause {
+	display: inline-block;
+	position: relative;
+	width: 11px;
+	opacity: .5;
+	height: 15px;
+}
+.pause-left {
+	height: 100%;
+	width: 4px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgb(105,135,150);
+}
+.pause-right {
+	height: 100%;
+	width: 4px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgb(105,135,150);
+}*/
+/* Absolute Center */
+/*Container for audio player*/
+#audioplayer{
+	width: 230px;
+	height: 30px;
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid rgb(105,135,150);;
+}
+/* Play/Pause Button */
+#pButton{
+	height:30px;
+	width: 30px;
+	border: none;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	outline:none;
+
+}
+/*Classes for play/pause button background*/
+.play{background: url('images/play.png') ;}
+.pause{background: url('images/pause.png') ;}
+
+#timeline{
+	width: 191px;
+	height: 10px;
+	background: rgba(105,135,150,.5);
+	margin-top: 10px;
+	float: left;
+	border-radius: 15px;
+}
+/*Grabable Playhead*/
+#playhead{
+	cursor: pointer;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgb(105,135,150);
+}
+
+.teaser-active {
+	opacity: 1;
+}
+.up {
 	display: inline-block;
 }
-#up {
+.down {
 	display: inline-block;
 }
-#down {
-	display: inline-block;
+.teaser {
+	width:200px;
+	height:35px;
+	margin:0;
+	/*position: absolute;
+	top: 75%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	*/padding:8px;
+	color:#898989;
+	white-space: nowrap;
+	/*background-color: red;*/
+	border: 1px solid rgba(105,135,150,.5);
 }
 /*------------------------------------------------------ ABOUT */
 .about-container {
