@@ -185,10 +185,9 @@ h4 {
 	height: 10px;
 	border-radius: 50%;
 	margin-top: -1px;
-	margin-left: -1px;
 	background-color: rgb(240,240,240);
 	background: rgb(105,135,150);
-	border: 1px solid rgba(105,135,150,.5);
+	/*border: 1px solid rgba(105,135,150,.5)*/;
 }
 
 .teaser-active {
@@ -910,8 +909,14 @@ table {
 	.threads-container {
 		left: 500px;
 	}
+	.preview {
+		width: inherit;
+	}
+	#audioplayer {
+		width: inherit;
+	}
 	#timeline {
-		width: 90%;
+		width: 80%;
 	}
 }
 @media only screen and (max-width: 720px) {
@@ -1048,7 +1053,7 @@ table {
 		display: none;
 	}
 	#timeline {
-		width: 87%;
+		width: 70%;
 	}
 }
 
