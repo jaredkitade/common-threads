@@ -717,7 +717,7 @@ table {
 }
 .threads, .mobile-threads {
 	float: left;
-	position: fixed;
+	position: absolute;
 	width: 220px;
 	z-index: 1;
 	/*left: 980px;
