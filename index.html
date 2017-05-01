@@ -911,73 +911,6 @@
 		</div> -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-
-		// list one content
-		var one = [
-			'<span class="adapt-link">adapting</span>',
-			'<span class="anxiety-link">anxiety</span>',
-			'<span class="appreciation-link">appearance</span>',
-			'<span class="appreciation-link">appreciation</span>',
-			'<span class="balance-link">balance</span>',
-			'<span class="yourself-link">being yourself</span>',
-			'<span class="expectations-link">expectations</span>'
-
-		];
-
-		// list two content
-		var two = [
-			'<span class="impulse-link">impulse</span>',
-			'<span class="loss-link">loss</span>',
-			'<span class="marriage-link">marriage</span>',
-			'<span class="mindset-link">mindset</span>',
-			'<span class="motivation-link">motivation</span>',
-			'<span class="overthinking-link">overthinking</span>',
-			'<span class="parenting-link">parenting</span>'
-		];
-
-		// list three content
-		var three = [
-			'<span class="real-friends-link">real friends</span>',
-			'<span class="regret-link">regret</span>',
-			'<span class="self-confidence-link">self confidence</span>',
-			'<span class="singing-link">singing</span>',
-			'<span class="bubbles-link">societal bubbles</span>',
-			'<span class="stereotypes-link">stereotypes</span>',
-			'<span class="temper-link">temper</span>',
-			'<span class="time-link">time</span>'
-		];
-
-		// This is a very common randomizing function.
-		// It takes a list (array) and returns one at random.
-		function select_random(x){
-			y = x[Math.floor(Math.random()*x.length)];
-			return y;
-		}
-
-		function generate(){
-
-			// Select a random item from each list
-			var selected_one = select_random(one);
-			var selected_two = select_random(two);
-			var selected_three = select_random(three);
-
-
-			// Take the selected (random) item from list and make it visible
-			$('.topic-one').html(selected_one);
-			$('.topic-two').html(selected_two);
-			$('.topic-three').html(selected_three);
-
-
-		}
-
-		generate();
-		
-	});
-
-</script>
-
 <script>
 	$(document).ready(function(){
 		
@@ -1402,6 +1335,72 @@
 			$('.home-podcasts').fadeToggle('.pointer');
 		});
 
+	});
+
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		// list one content
+		var one = [
+			'adapting',
+			'anxiety',
+			'appearance',
+			'appreciation',
+			'balance',
+			'being yourself',
+			'expectations'
+
+		];
+
+		// list two content
+		var two = [
+			'impulse',
+			'loss',
+			'marriage',
+			'mindset',
+			'motivation',
+			'overthinking',
+			'parenting'
+		];
+
+		// list three content
+		var three = [
+			'real friends',
+			'regret',
+			'self confidence',
+			'singing',
+			'societal bubbles',
+			'stereotypes',
+			'temper',
+			'time'
+		];
+
+		// This is a very common randomizing function.
+		// It takes a list (array) and returns one at random.
+		function select_random(x){
+			y = x[Math.floor(Math.random()*x.length)];
+			return y;
+		}
+
+		function generate(){
+
+			// Select a random item from each list
+			var selected_one = select_random(one);
+			var selected_two = select_random(two);
+			var selected_three = select_random(three);
+
+
+			// Take the selected (random) item from list and make it visible
+			$('.topic-one').html(selected_one);
+			$('.topic-two').html(selected_two);
+			$('.topic-three').html(selected_three);
+
+
+		}
+
+		generate();
+		
 	});
 
 </script>
