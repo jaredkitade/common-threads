@@ -21,7 +21,11 @@
 				<span class="topic-three p-top"></span>.
 			</div>
 		</h2>
-		<div class='scroll-down'>&#8615;</div>
+		<div class='scroll-down'>
+			Scroll
+			<br>
+			&#8615;
+		</div>
 		<!-- <img src='images/fade.png'> -->
 	</div>
 	<div class='page-head absolute'>
@@ -948,6 +952,9 @@
 			if($(window).scrollTop() > 150){
 				$('.scroll-down').fadeOut('fast');
 			}
+			if($(window).scrollTop() < 150){
+				$('.scroll-down').fadeIn('fast');
+			}
 		});
 
 		$('td.all-link').click(function(){
@@ -1425,6 +1432,11 @@
 	$(function() {
 	  $(".scroll-down").delay(1500).fadeIn();
 	});
+	$(".scroll-down").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".head").offset().top},
+        'slow');
+});
 </script>
 </html>
 

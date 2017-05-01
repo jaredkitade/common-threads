@@ -220,12 +220,13 @@ h4 {
 .scroll-down {
 	display: none;
 	color: rgb(240,240,240);
-	width: 20px;
+	width: auto;
 	text-align: center;
 	position: absolute;
 	top: 60%;
 	left: 50%;
 	transform:translate(-50%,-50%);	
+	font-size: 9pt;
 }
 /*------------------------------------------------------ FOOTER */
 .footer-container {
