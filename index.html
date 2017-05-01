@@ -21,6 +21,7 @@
 				<span class="topic-three p-top"></span>.
 			</div>
 		</h2>
+		<div class='scroll-down'>&#8615;</div>
 		<!-- <img src='images/fade.png'> -->
 	</div>
 	<div class='page-head absolute'>
@@ -944,6 +945,9 @@
 			if($(window).scrollTop() < 250){
 				$('.about').fadeIn('fast');
 			}
+			if($(window).scrollTop() > 150){
+				$('.scroll-down').fadeOut('fast');
+			}
 		});
 
 		$('td.all-link').click(function(){
@@ -1381,7 +1385,7 @@
 		var three = [
 			'real friends',
 			'regret',
-			'Self-Confidence',
+			'self-confidence',
 			'singing',
 			'societal bubbles',
 			'stereotypes',
@@ -1416,6 +1420,11 @@
 		
 	});
 
+</script>
+<script type="text/javascript">
+	$(function() {
+	  $(".scroll-down").delay(1500).fadeIn();
+	});
 </script>
 </html>
 
