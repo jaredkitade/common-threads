@@ -1,4 +1,3 @@
-<script type="text/javascript">
 	$(document).ready(function() {
 
 			// list one content
@@ -35,6 +34,19 @@
 				'time'
 			];
 
+			var topicone = one.length
+			var x = Mat.floor(topicone*Math.random())
+			document.getElementById('topic-one').src=one[x];
+
+			var topictwo = two.length
+			var x = Mat.floor(topictwo*Math.random())
+			document.getElementById('topic-two').src=two[x];
+
+			var topicthree = three.length
+			var x = Mat.floor(topicthree*Math.random())
+			document.getElementById('topic-three').src=three[x];
+
+
 			function select_random(x){
 				y = x[Math.floor(Math.random()*x.length)];
 				return y;
@@ -55,4 +67,3 @@
 			}
 			generate();
 		});
-</script>

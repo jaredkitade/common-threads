@@ -1,0 +1,191 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Generator — Jared Kitade</title>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 20px;
+			font-family: planeta-medium;
+			src: url(PS1Planeta-Medium.otf);
+			text-transform: uppercase;
+			text-align: center;
+			line-height: 2.6em;
+		}
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			left: 75px;
+		}
+
+		.list-one {
+			color:#FF675E;
+			font-size:50px;
+		}
+
+		.list-two {
+			color:#2485C4;
+			font-size:50px;
+/*			text-indent: 1em;
+*/		}
+
+		.list-three {
+			color: #1A689A;
+			font-size:50px;
+/*			text-indent: 2em;
+*/		}
+
+		.list-four {
+			color: #003C66;
+			font-size:50px;
+/*			text-indent: 3em;
+*/		}
+		.border {
+			border: 2px solid #FF5E4E;
+			padding: 10px 0px;
+			width:auto;
+			height:auto;
+		}
+		.button {
+			padding:10px 5px;
+			background-color: #FF5E4E;
+			color:white;
+			border-radius: 10%;
+			transition-timing-function:linear;
+			transition-duration:.25s;
+
+		}
+		.button:hover {
+			background-color:white;
+			color:#FF5E4E;
+			transition-timing-function:linear;
+						transition-duration:.25s;
+
+
+		}
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				'adapting',
+				'anxiety',
+				'appearance',
+				'appreciation',
+				'balance',
+				'being yourself',
+				'expectations'
+
+			];
+
+			// list two content
+			var two = [
+				'impulse',
+				'loss',
+				'marriage',
+				'mindset',
+				'motivation',
+				'overthinking',
+				'parenting'
+			];
+
+			// list three content
+			var three = [
+				'real friends',
+				'regret',
+				'self confidence',
+				'singing',
+				'societal bubbles',
+				'stereotypes',
+				'temper',
+				'time'
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+
+
+				// Take the selected (random) item from list and make it visible
+				$('.topic-one').html(selected_one);
+				$('.topic-two').html(selected_two);
+				$('.topic-three').html(selected_three);
+
+
+			}
+
+			generate();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<!-- <span class="button-container">
+		<button class="button">Try Again</button>
+	</span> -->
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<span></span>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+	<!-- <span class="border"> -->
+		<span class="topic-one"></span>
+		<span class="topic-two"></span>
+		<span class="topic-three"></span>
+
+<!-- 	</span>
+ --></body>
+
+</html>
