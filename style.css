@@ -912,9 +912,6 @@ table {
 		width: 213px;*/
 		display: none;
 	}
-	.size {
-		font-size: 10pt;
-	}
 	.related-container-mobile {
 		display: block;
 		width: 480px;
@@ -1074,9 +1071,6 @@ table {
 		height: 30px;
 		bottom: 0px;*/
 		display: none;
-	}
-	.size {
-		font-size: 11pt;
 	}
 	.threads-container {
 		display: none;
