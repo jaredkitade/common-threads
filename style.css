@@ -552,9 +552,19 @@ table {
 	color: rgb(105,135,150);
 	position: absolute;
 	bottom: 0;
-	left: 0;
+	right: 0;
 }
 .next:hover {
+	text-decoration: underline;
+}
+.previous {
+	font-family:'Brandon Text W01 Bold';
+	color: rgb(105,135,150);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.previous:hover {
 	text-decoration: underline;
 }
 .summary {
