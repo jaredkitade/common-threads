@@ -1052,11 +1052,11 @@ table {
 		width: 360px;
 		border-bottom: 1px solid rgba(105,135,150.5);
 	}
-	.next {
+	/*.next {
 		left: 50%;
 		transform: translate(-50%,0);
 		bottom: 10px;
-	}
+	}*/
 	.related {
 		/*height: 180px;*/
 		height: 170px;
