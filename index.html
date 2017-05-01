@@ -843,7 +843,7 @@
 					<td class='regret-link'>Regret</td>
 				</tr>
 				<tr>
-					<td class='self-confidence-link'>Self Confidence</td>
+					<td class='self-confidence-link'>Self-Confidence</td>
 					<td class='singing-link'>Singing</td>
 				</tr>
 				<tr>
@@ -900,7 +900,7 @@
 					<td class='regret-link'>Regret</td>
 				</tr>
 				<tr>
-					<td class='self-confidence-link'>Self Confidence</td>
+					<td class='self-confidence-link'>Self-Confidence</td>
 					<td class='singing-link'>Singing</td>
 				</tr>
 				<tr>
@@ -937,6 +937,12 @@
 			}
 			if($(window).scrollTop() < 784){
 				$('.about-container').css('background-color','rgb(105,135,150)')
+			}
+			if($(window).scrollTop() > 250){
+				$('.about').fadeOut('fast');
+			}
+			if($(window).scrollTop() < 250){
+				$('.about').fadeIn('fast');
 			}
 		});
 
@@ -1375,7 +1381,7 @@
 		var three = [
 			'real friends',
 			'regret',
-			'self confidence',
+			'Self-Confidence',
 			'singing',
 			'societal bubbles',
 			'stereotypes',
