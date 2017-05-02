@@ -552,6 +552,17 @@
 				</div>
 			</div>
 			</a>
+			<div class='podcast all adapting anxiety appearance appreciation balance yourself expectations impulse loss marriage mindset motivation overthinking parenting real-friends regret self-confidence singing bubbles temper time stereotypes'>
+				<div class='podcast-head' style='border:none;'>
+					<div class='header'>
+						<div class='episode'>
+							<p class='title scroll-top'>
+								Back to Top
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- <a href='jeremy.html'>
 			<div class='podcast all adapt balance impulse mindset bubbles'>
 				<div class='pod-overlay'>
@@ -810,6 +821,7 @@
 			</div>
 			</a> -->
 		</div>
+		<!-- <div class='scroll-top'>scroll up</div> -->
 		<div class='sort-container'>
 			<div class='sort'>
 				<!-- <h1>Sort By Topic</h1> -->
@@ -1427,6 +1439,11 @@
 
 
 		}
+		$('.scroll-top').click(function(){
+				generate();
+				$('html,body').animate({
+					scrollTop: $('.about-container').offset().top},'slow');
+			});
 
 		generate();
 		
