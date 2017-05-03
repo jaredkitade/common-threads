@@ -794,7 +794,6 @@ table {
 	left: 50%;
 	top: 50%;
 	transform:translate(-50%,-50%);
-	background-color: white;
 	display: none;
 }
 #mobile-sort-button, #mobile-topic-button {
@@ -882,7 +881,7 @@ table {
 		width: 480px;
 	}
 	.sort-container {
-		left: 500px;
+		/*left: 500px;*/
 	}
 	.podcast-episode {
 		width: 480px;
@@ -962,7 +961,7 @@ table {
 		width: 200px;
 	}
 	.sort-container {
-		left: 260px;
+		left: 50px;
 	}
 	.threads-container {
 		display: none;
