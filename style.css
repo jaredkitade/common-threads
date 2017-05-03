@@ -196,7 +196,7 @@ h4 {
 /*------------------------------------------------------ ABOUT */
 .about-container {
 	width: 100%;
-	height: 800px;
+	height: 100vh;
 	position: relative;
 	background: rgb(105,135,150);
 }
@@ -223,7 +223,7 @@ h4 {
 	width: auto;
 	text-align: center;
 	position: absolute;
-	top: 55%;
+	bottom: 8%;
 	left: 50%;
 	transform:translate(-50%,-50%);	
 	font-size: 9pt;
@@ -783,18 +783,19 @@ table {
 	font-family:'Brandon Text W01 Bold';
 }
 .sort-container-mobile {
-	position: absolute;
+	position: fixed;
 	/*width: 220px;
 	height: auto;*/
 	width: 100%;
 	height: 100%;
-	z-index: 1;
+	z-index: 9999;
 	/*left: 260px;
 	top:10px;*/
 	left: 50%;
 	top: 50%;
 	transform:translate(-50%,-50%);
 	display: none;
+	background-color: rgb(240,240,240);
 }
 #mobile-sort-button, #mobile-topic-button {
     position: fixed;
@@ -805,7 +806,7 @@ table {
    	width: 100%;
     /*right: 0;*/
     height: 40px;
-    z-index: 999;
+    z-index: 99999;
     display: none;
     color: rgb(105,135,150);
 	font-size: 26px;
@@ -872,6 +873,9 @@ table {
 
 @media only screen and (max-width: 980px) {
 	.head {
+		width: 720px;
+	}
+	.about {
 		width: 720px;
 	}
 	.content {
@@ -957,6 +961,9 @@ table {
 	.content {
 		width: 480px;
 	}
+	.about {
+		width: 480px;
+	}
 	.home-podcasts {
 		width: 200px;
 	}
@@ -996,6 +1003,9 @@ table {
 	.content {
 		width: 360px;
 		margin-top: 100px;
+	}
+	.about {
+		width: 360px;
 	}
 	.podcast {
 		width: 360px;
@@ -1111,11 +1121,18 @@ table {
 		display: none;
 	}
 	.content {
-		width: 220px;
+		width: 320px;
 		margin-top: 100px;
 	}
+	.about {
+		width: 320px;
+	}
 	.home-podcasts {
-		width: 200px;
+		width: 320px;
+	}
+	.podcast, .podcast-head {
+		width: 300px;
+		height: 300px;
 	}
 	.sort-container {
 		display: none;
